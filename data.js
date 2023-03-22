@@ -316,6 +316,8 @@
 				name: "Lord of the Board", url: "https://www.youtube.com/watch?v=i47pLhncBlc&t=546s"
 			}, {
 				name: "To The Table Top!", url: "https://www.youtube.com/watch?v=nexf5onWJeI"
+			}, {
+				name: "Baked Goods", url: "https://www.youtube.com/watch?v=UAM84ZlFD4A"
 			}]
 		},
 		"25": {
@@ -328,6 +330,8 @@
 				name: "Lord of the Board", url: "https://www.youtube.com/watch?v=i47pLhncBlc&t=96s"
 			}, {
 				name: "To The Table Top!", url: "https://www.youtube.com/watch?v=enaUsIlGbjU"
+			}, {
+				name: "Baked Goods", url: "https://www.youtube.com/watch?v=eA2MfPV0wp0"
 			}]
 		},
 		"26": {
@@ -338,6 +342,8 @@
 			ability: "T-Rex is a large fighter: she can attack up to 2 spaces away. At the end of your turn, draw a card.",
 			guides: [{
 				name: "To The Table Top!", url: "https://www.youtube.com/watch?v=lbS2xd_1A00"
+			}, {
+				name: "Baked Goods", url: "https://www.youtube.com/watch?v=rIs1F2miyKc"
 			}]
 		},
 		"27": {
@@ -348,6 +354,8 @@
 			ability: "After Dr. Sattler or Dr. Malcolm move, they place an <i>Insight</i> token in their new space. They have 5 <i>Insight</i> tokens. Whenever either of them moves to a new space, place an <i>Insight</i> token in their new space. Those tokens have no effect themselves but some cards interact with them.",
 			guides: [{
 				name: "To The Table Top!", url: "https://www.youtube.com/watch?v=Ft4JNGHuPp8"
+			}, {
+				name: "Baked Goods", url: "https://www.youtube.com/watch?v=MpJJ9cCHL3s&t=1581s"
 			}]
 		},
 		"28": {
@@ -358,6 +366,8 @@
 			ability: "Bullseye can attack from up to 5 spaces away (ignoring zones). This is in addition to also being able to attack in his zone.",
 			guides: [{
 				name: "To The Table Top!", url: "https://www.youtube.com/watch?v=P_Kuca-8IA0"
+			}, {
+				name: "Baked Goods", url: "https://www.youtube.com/watch?v=1B5X3cK6hl8"
 			}]
 		},
 		"29": {
@@ -368,6 +378,8 @@
 			ability: "During combat, if Daredevil has 2 or fewer cards in his hand, he may blind boost his attack or defense.",
 			guides: [{
 				name: "To The Table Top!", url: "https://www.youtube.com/watch?v=w_diciqXDqQ"
+			}, {
+				name: "Baked Goods", url: "https://www.youtube.com/watch?v=7b4lHIAATAU"
 			}]
 		},
 		"30": {
@@ -378,6 +390,8 @@
 			ability: "The first time Elektra is defeated, remove her and all <i>The Hand</i> from the board. Next turn, she resurrects: she flips her health dial, shuffles her discard pile into her deck. Place her and all Hand back onto the board with each fighter in a different zone. She now resolves <i>Resurrect</i> effects on her cards.",
 			guides: [{
 				name: "To The Table Top!", url: "https://www.youtube.com/watch?v=Un3FXcyDqlU"
+			}, {
+				name: "Baked Goods", url: "https://www.youtube.com/watch?v=Xn6IPWpaDaY"
 			}]
 		},
 		"31": {
@@ -388,6 +402,8 @@
 			ability: "Ghost Rider starts the game with 5 <i>Hellfire</i>. When he maneuvers he may spend 1 <i>Hellfire</i>. If he does, he increases his movement to 4 and may move through opposing fighters. Then he deals 1 damage to each opposing fighter he moved through.",
 			guides: [{
 				name: "To The Table Top!", url: "https://www.youtube.com/watch?v=LC0t8eQMkI4"
+			}, {
+				name: "Baked Goods", url: "https://www.youtube.com/watch?v=VdCuD5Bw7-M"
 			}]
 		},
 		"32": {
@@ -398,6 +414,8 @@
 			ability: "Luke Cage takes 2 less combat damage from attacks. When defending, Luke Cage wins combat if he takes no damage, even if he didn't play a card.",
 			guides: [{
 				name: "To The Table Top!", url: "https://www.youtube.com/watch?v=_ZgWf_PRMrg"
+			}, {
+				name: "Baked Goods", url: "https://www.youtube.com/watch?v=GVdtYMAT7lA"
 			}]
 		},
 		"33": {
@@ -408,6 +426,8 @@
 			ability: "As <i>Moon Knight</i>, at the start of your turn, move up to 2 spaces. As <i>Khonshu</i> adds +2 to the value of attack cards. He does not take damage from effects other than combat. As <i>Mr. Knight</i>, adds +1 to all defense values. As <i>all of them</i>: at the end of turn, change to your next identity.",
 			guides: [{
 				name: "To The Table Top!", url: "https://www.youtube.com/watch?v=bVbjc44uzwU"
+			}, {
+				name: "Baked Goods", url: "https://www.youtube.com/watch?v=yIotoLiC-QU"
 			}]
 		},
 		"34": {
