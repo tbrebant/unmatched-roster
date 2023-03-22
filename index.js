@@ -32,12 +32,7 @@ class App extends DoDom {
 		let intro = this.addDoDom('div', { class: 'intro' });
 		let chapter = intro.addDoDom('div');
 		chapter.addDomText('This page lists all existing Unmatched fighters released up to the present day (March 2023 at the time of writing). If you notice some missing or erroneous information, please open an issue (or do a PR) on ');
-		chapter.addDomText('Unmatched Roster\'s GitHub', {
-			class: 'link',
-			onClick: () => {
-				window.open('https://github.com/tbrebant/unmatched-roster', '_blank');
-			}
-		});
+		addHrefLink(chapter, 'Unmatched Roster\'s GitHub', 'https://github.com/tbrebant/unmatched-roster', 'link');
 		chapter.addDomText('.');
 		chapter = intro.addDoDom('div');
 		chapter.addDomText(' You can customize the list by clicking on ');
@@ -45,9 +40,9 @@ class App extends DoDom {
 		chapter.addDomText(' and modify this page\'s url to list your own selection of fighters (only the ones you own for instance).');
 		chapter = intro.addDoDom('div');
 		chapter.addDomText('If you want to know how good a fighter is and know more about his different matchups, you can check the Unmatched League\'s ');
-		chapter.addDomText('fighter stats page', { class: 'link', onClick: () => { window.open('https://www.umleague.net/fighterstats', '_blank'); }});
-		chapter.addDomText('or search for \"Unmatched tier list\" on ');
-		chapter.addDomText('YouTube', { class: 'link', onClick: () => { window.open('https://www.youtube.com/results?search_query=unmatched+tier+list+&sp=CAI%253D', '_blank'); }});
+		addHrefLink(chapter, 'fighter stats page', 'https://www.umleague.net/fighterstats', 'link');
+		chapter.addDomText(' or search for \"Unmatched tier list\" on ');
+		addHrefLink(chapter, 'YouTube', 'https://www.youtube.com/results?search_query=unmatched+tier+list+&sp=CAI%253D', 'link');
 		chapter.addDomText('.');
 		intro.addDoDom('div', { text: ' This project is unofficial and is not affiliated with any of Unmatched creators or publishers. Unmatched and the Unmatched logo are trademarks of Restoration Games, LLC. Art is (c) Restoration Games, LLC. Content is used with permission.' });
 
@@ -222,15 +217,15 @@ class FighterPanel extends DoDom {
 			guides.addDomText('Strategy guide(s): ');
 			for (let i = 0; i < figherData.guides.length; i++) {
 				if (i > 0) { guides.addDomText(', '); }
-				guides.addDomText(figherData.guides[i].name, { class: 'guideLink', onClick: () => {
-					window.open(figherData.guides[i].url, '_blank');
-				}});
+				addHrefLink(guides, figherData.guides[i].name, figherData.guides[i].url, 'guideLink');
 			}
 		}
 	}
+}
 
-	//▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-	getAssetId (int) {
-		return ('000' + int).substr(-3);
-	}
+//▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+function addHrefLink (parent, text, url, className) {
+	let link = parent.addDoDom('a', { text: text, class: className });
+	link.dom.href = url;
+	link.dom.target = '_blank';
 }

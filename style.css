@@ -120,6 +120,7 @@
 .guideLink {
 	cursor: pointer;
 	text-decoration: underline;
+	color: black;
 }
 .guideLink:hover {
 	opacity: 0.5;
@@ -304,6 +305,7 @@
 .link {
 	color: #6a6aed;
 	cursor: pointer;
+	text-decoration: none;
 }
 .link:hover {
 	color: #9191ef;

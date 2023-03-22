@@ -10,4 +10,4 @@ No art or copyrighted element is or will be hosted in this repository. They are 
 
 ## Contribute
 
-If you wish to contribute (add new fighters, improve some descriptions, fix mistakes...), feel free to open an issue or even a PR.
+If you wish to contribute (add new fighters, improve some descriptions, fix mistakes...), feel free to open an issue or even a PR. All data are located in [data.js](./data.js) which is pretty easy to read and understand.
