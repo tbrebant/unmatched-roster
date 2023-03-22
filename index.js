@@ -1,13 +1,12 @@
-import DoDom from './DoDom.js';
 import DATA from './data.js';
+import DoDom from './DoDom.js';
 
 const ROSTER = DATA.roster;
 
 //▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 export default function start () {
 	window.onload = async () => {
-		console.log('Ready!');
-		let app = window.app = new App();
+		let app = new App();
 		app.init();
 	}
 };
@@ -22,13 +21,14 @@ class App extends DoDom {
 
 	//▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 	async init () {
+		// Header and title
 		let header = this.addDoDom('div', { class: 'header' });
 		let headerContainer = header.addDoDom('div', { class: 'headerContainer' });
 		headerContainer.addDoDom('div', { class: 'unmatchedLogo' });
 		headerContainer.addDoDom('div', { class: 'rosterLogo', text: 'ROSTER' });
-
 		headerContainer.addDoDom('div', { class: 'advanced', text: 'Filter', onClick: this.openFilterWindow.bind(this) });
 
+		// Introduction
 		let intro = this.addDoDom('div', { class: 'intro' });
 		let chapter = intro.addDoDom('div');
 		chapter.addDomText('This page lists all existing Unmatched fighters released up to the present day (March 2023 at the time of writing). If you notice some missing or erroneous information, please open an issue (or do a PR) on ');
@@ -46,6 +46,7 @@ class App extends DoDom {
 		chapter.addDomText('.');
 		intro.addDoDom('div', { text: ' This project is unofficial and is not affiliated with any of Unmatched creators or publishers. Unmatched and the Unmatched logo are trademarks of Restoration Games, LLC. Art is (c) Restoration Games, LLC. Content is used with permission.' });
 
+		// Disclaimer when page is currently filtered + button to remove the filter
 		this.removeFilterBtn = this.addDoDom('div', {
 			class: 'removeFilterBtn',
 			text: '- Filtered selection, click to remove -',
@@ -56,17 +57,20 @@ class App extends DoDom {
 			}
 		});
 
+		// Create fighters sheets
 		for (let id in ROSTER) {
 			let figherData = ROSTER[id];
 			figherData.id = id;
 			this.fighters[id] = this.appendChild(new FighterPanel(figherData));
 		}
 
+		// Footer
 		this.addDoDom('div', {
 			class: 'footer',
 			text: 'Unmatched and the Unmatched logo are trademarks of Restoration Games, LLC. Art is (c) Restoration Games, LLC. Content is used with permission.'
 		});
 
+		// Retrieve url filters ans update them
 		this.setFiltersFromUrl();
 		this.updateListFromFilters();
 	}
@@ -116,24 +120,33 @@ class App extends DoDom {
 	}
 
 	//▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+	updateFilterWindowFromFilters () {
+		for (let id in ROSTER) {
+			this.filterWindow.checkboxes[id].dom.checked = !!this.filters[id];
+		}
+	}
+
+	//▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 	createFilterWindow () {
 		if (this.filterWindow) { return; }
+
+		// Dimmed area behind poup
 		this.filterWindow = this.addDoDom('div', {
 			class: 'filterWindowBg',
-			onClick: () => {
-				this.filterWindow.hide();
-			}
+			onClick: () => { this.filterWindow.hide(); }
 		});
+
+		// Actual popup
 		this.filterWindowsContent = this.filterWindow.addDoDom('div', {
 			class: 'filterWindowsContent',
-			onClick: (e) => {
-				e.stopPropagation();
-			}
+			onClick: (e) => { e.stopPropagation(); }
 		});
+
+		// Title
 		this.filterWindowsContent.addDoDom('div', { text: 'Filter', class: 'filterTitle' });
 
+		// Checkboxes
 		this.filterWindow.checkboxes = {};
-
 		for (let id in ROSTER) {
 			let checkboxWrapper = this.filterWindowsContent.addDoDom('div', { class: 'filterWrapper' });
 			let checkbox = checkboxWrapper.addDoDom('input', { class: 'filterCheckbox'});
@@ -155,6 +168,7 @@ class App extends DoDom {
 			this.filterWindow.checkboxes[id] = checkbox;
 		}
 
+		// Close popup button
 		let closeIconCode = '<svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 512 512"><title>ionicons-v5-m</title><path d="M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z" style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:16px"/><line x1="320" y1="320" x2="192" y2="192" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:16px"/><line x1="192" y1="320" x2="320" y2="192" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:16px"/></svg>';
 		let closeIcon = this.filterWindowsContent.addDoDom('div', {
 			html: closeIconCode,
@@ -164,21 +178,16 @@ class App extends DoDom {
 			}
 		});
 	}
-
-	//▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-	updateFilterWindowFromFilters () {
-		for (let id in ROSTER) {
-			this.filterWindow.checkboxes[id].dom.checked = !!this.filters[id];
-		}
-	}
 }
 
 //▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+// Class for fighter sheet
 class FighterPanel extends DoDom {
 	constructor (figherData) {
 		super('div', { class: 'fighterPanel' });
 		this.figherData = figherData;
 
+		// Card's back
 		this.addDoDom('div', {
 			class: 'cardBack',
 			styles: {
@@ -186,6 +195,7 @@ class FighterPanel extends DoDom {
 			}
 		});
 
+		// Mini(s)
 		let initialMini = figherData.minis[0];
 		let mini = this.addDoDom('div', {
 			class: 'minis', styles: { backgroundImage: `url(${initialMini})` }
@@ -202,16 +212,24 @@ class FighterPanel extends DoDom {
 			}});
 		}
 
+		// Right information area
 		let infoBlock = this.addDoDom('div', { class: 'infoBlock' });
+
+		// Title with its diagonal design
 		infoBlock.addDoDom('div', { class: 'dynamic' });
 		infoBlock.addDoDom('div', { class: 'fighterName', text: figherData.name });
 
+		// Description
 		if (figherData.desc) {
 			infoBlock.addDoDom('div', { html: figherData.desc, class: 'fighterDesc' });
 		}
+
+		// Ability
 		if (figherData.ability) {
 			infoBlock.addDoDom('div', { html: 'Ability: ' + figherData.ability, class: 'fighterAbility' });
 		}
+
+		// Guides
 		if (figherData.guides) {
 			let guides = infoBlock.addDoDom('div', { class: 'fighterGuides' });
 			guides.addDomText('Strategy guide(s): ');
@@ -224,6 +242,7 @@ class FighterPanel extends DoDom {
 }
 
 //▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+// Helper
 function addHrefLink (parent, text, url, className) {
 	let link = parent.addDoDom('a', { text: text, class: className });
 	link.dom.href = url;
