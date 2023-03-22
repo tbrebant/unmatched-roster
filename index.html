@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+	<head>
+		<meta name="viewport" content="width=1024">
+		<title>Unmatched Roster</title>
+		<link rel="icon" type="image/x-icon" href="./favicon.ico">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+		<link rel='stylesheet' href='style.css' type='text/css' />
+		<script>
+			let protocol = document.location.protocol;
+			if ((protocol !== 'http:' && protocol !== 'https:') || protocol === 'file:') {
+				document.write('Serve me through http or https...');
+			}
+		</script>
+		<script type="module">
+			import start from './index.js';
+			start();
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

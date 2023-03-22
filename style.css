@@ -1,0 +1,310 @@
+﻿html, body {
+	margin: 0;
+	padding: 0;
+	font-family: "Lato",'Verdana',sans-serif !important;
+	font-weight: 300;
+	background-color: white;
+	text-align: center;
+}
+
+.header {
+	background-color: black;
+	height: 150px;
+	margin-bottom: 35px;
+}
+
+.headerContainer {
+	width: 980px;
+	margin-left: 50%;
+	transform: translate(-50%, 0);
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.unmatchedLogo {
+	background-image: url(https://imgur.com/P8BkOvX.png);
+	width: 194px;
+	height: 96px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+	position: absolute;
+}
+
+.rosterLogo {
+	color: white;
+	display: inline-block;
+	font-size: 50px;
+	font-weight: 400;
+	top: 41px;
+	left: 374px;
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;
+	padding: 0 50px;
+	margin-left: 50%;
+	transform: translate(-50%,0);
+	margin-top: 41px;
+}
+
+.advanced {
+	color: #d9d9d9;
+	position: absolute;
+	right: 0;
+	top: 0;
+	border: 1px solid #8d8d8d;
+	padding: 3px 4px;
+	font-size: 10px;
+	border-radius: 2px;
+	margin-top: 4px;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.intro {
+	width: 980px;
+	margin-left: 50%;
+	transform: translate(-50%, 0);
+	margin-bottom: 25px;
+	font-weight: 400;
+	font-size: 21px;
+	text-align: left;
+}
+
+.intro div {
+	margin-bottom: 10px;
+}
+
+.fighterPanel {
+	min-height: 265px;
+	border: 10px solid;
+	position: relative;
+	box-sizing: border-box;
+	overflow: hidden;
+	width: 980px;
+	background-color: white;
+	margin-bottom: 10px;
+	border-radius: 17px;
+	grid-template-columns: 190px 230px auto;
+	grid-template-rows: auto;
+	display: inline-grid;
+	padding-bottom: 3px;
+	margin-top: 10px;
+}
+
+.fighterName {
+	font-weight: 400;
+	font-size: 24px;
+	text-align: left;
+	width: 100%;
+	background-color: black;
+	color: white;
+	padding: 7px 12px;
+	margin-bottom: 14px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.fighterDesc,
+.fighterAbility,
+.fighterTiers,
+.fighterGuides {
+	font-weight: 400;
+	margin-bottom: 14px;
+	text-align: left;
+	padding-right: 10px;
+}
+
+.guideLink {
+	cursor: pointer;
+	text-decoration: underline;
+}
+.guideLink:hover {
+	opacity: 0.5;
+}
+
+.cardBack {
+	display: inline-block;
+	width: 165px;
+	height: 215px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	margin-top: 16px;
+	margin-left: 25px;
+}
+
+.minis {
+	display: inline-block;
+	height: 225px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 225px;
+	position: relative;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+	grid-row-end: 2;
+	margin-top: 10px;
+}
+
+.infoBlock {
+	display: inline-block;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+	grid-row-end: 2;
+	position: relative;
+	margin-top: -10px;
+}
+
+.dynamic {
+	width: 40px;
+	height: 40px;
+	background-color: black;
+	position: absolute;
+	transform: rotate(152deg);
+	left: -12px;
+	top: -5px;
+	z-index: 0;
+}
+
+.miniArrowLeft,
+.miniArrowRight {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	width: 0;
+	height: 0;
+	transform: translate(0, -50%);
+	margin-top: 44%;
+}
+
+.miniArrowLeft:hover,
+.miniArrowRight:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.miniArrowLeft {
+	left: 10px;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-right: 15px solid #d1d1d1;
+}
+
+.miniArrowRight {
+	right: 9px;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-left: 15px solid #d1d1d1;
+}
+
+.footer {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	max-width: 980px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	font-weight: 400;
+}
+
+.filterWindowBg {
+	background-color: rgb(145 145 145 / 43%);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	text-align: center;
+}
+
+.filterWindowsContent {
+	background-color: white;
+	width: 842px;
+	height: 500px;
+	border: 1px solid #000000;
+	box-shadow: 0px 0px 22px rgb(255 255 255);
+	display: inline-block;
+	margin-top: 50vh;
+	transform: translate(0, -50%);
+	padding: 15px 0px 15px 30px;
+	box-sizing: border-box;
+	text-align: left;
+	user-select: none;
+}
+
+.filterTitle {
+	font-weight: 400;
+	font-size: 40px;
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.filterCheckbox {
+	display: inline-block;
+}
+
+.filterCheckboxLabel {
+	display: inline-block;
+	cursor: pointer;
+}
+
+.filterCheckboxLabel:hover {
+	color: #999999;
+}
+
+.filterWrapper {
+	display: inline-block;
+	width: 200px;
+	text-align: left;
+}
+
+.removeFilterBtn {
+	margin-bottom: 5px;
+	font-size: 15px;
+	color: #9d9d9d;
+	cursor: pointer;
+	font-style: italic;
+	font-weight: 400;
+	display: block;
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+}
+.removeFilterBtn:hover {
+	color: black;
+}
+
+.closeIcon {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin-right: 7px;
+	margin-top: 7px;
+	cursor: pointer;
+	opacity: 1;
+}
+
+.closeIcon:hover {
+	opacity: 0.7;
+}
+
+.link {
+	color: #6a6aed;
+	cursor: pointer;
+}
+.link:hover {
+	color: #9191ef;
+}
