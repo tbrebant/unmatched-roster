@@ -89,9 +89,11 @@
 	border-radius: 17px;
 	grid-template-columns: 190px 230px auto;
 	grid-template-rows: auto;
-	display: inline-grid;
+	display: grid;
 	padding-bottom: 3px;
 	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .fighterName {
