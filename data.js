@@ -350,7 +350,7 @@
 			name: "Dr. Sattler",
 			back: "https://i.imgur.com/4V9lFj1.png",
 			minis: ["https://i.imgur.com/wxQEi7U.png"],
-			desc: "Dr. Sattler is a melee fighter, supported by Dr. Malcolm melee sidekick. They can heal for a huge amount of life. They laverage <i>Insight</i> tokens that they are placing on the board.",
+			desc: "Dr. Sattler is a melee fighter, supported by Dr. Malcolm melee sidekick. They can heal for a huge amount of life. They leverage <i>Insight</i> tokens that they are placing on the board.",
 			ability: "After Dr. Sattler or Dr. Malcolm move, they place an <i>Insight</i> token in their new space. They have 5 <i>Insight</i> tokens. Whenever either of them moves to a new space, place an <i>Insight</i> token in their new space. Those tokens have no effect themselves but some cards interact with them.",
 			guides: [{
 				name: "To The Table Top!", url: "https://www.youtube.com/watch?v=Ft4JNGHuPp8"
