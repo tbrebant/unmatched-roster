@@ -434,7 +434,7 @@
 			name: "Squirrel Girl",
 			back: "https://i.imgur.com/xWVDOeB.png",
 			minis: ["https://i.imgur.com/kqTUiZI.png"],
-			desc: "Squirrel Girl is a melee fighter, supported by 12 <i>Squirrels</i> small fighters sidekicks. Small fighters can be stacked up to 4 in a single space, even if there is already a normal fighter on it. They can also move through ennemies. She cares about having a lot of squirrels around her or ennemies to trigger improved card effects.",
+			desc: "Squirrel Girl is a melee fighter, supported by 8 <i>Squirrels</i> small fighters sidekicks. Small fighters can be stacked up to 4 in a single space, even if there is already a normal fighter on it. They can also move through ennemies. She cares about having a lot of squirrels around her or ennemies to trigger improved card effects.",
 			ability: "At the start of her turn, she summons a squirrel in a space adjacent to her. Squirrels are small fighters.",
 			guides: [{
 				name: "Baked Goods", url: "https://www.youtube.com/watch?v=o5qHzhbOw7E"
