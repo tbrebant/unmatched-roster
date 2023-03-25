@@ -77,23 +77,29 @@
 	margin-bottom: 10px;
 }
 
+.fighterPanelWrapper {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	width: fit-content;
+}
+
 .fighterPanel {
 	min-height: 265px;
 	border: 10px solid;
 	position: relative;
 	box-sizing: border-box;
-	overflow: hidden;
 	width: 980px;
 	background-color: white;
-	margin-bottom: 10px;
 	border-radius: 17px;
 	grid-template-columns: 190px 230px auto;
 	grid-template-rows: auto;
 	display: grid;
 	padding-bottom: 3px;
-	margin-top: 10px;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .fighterName {
@@ -112,7 +118,10 @@
 .fighterDesc,
 .fighterAbility,
 .fighterTiers,
-.fighterGuides {
+.fighterGuides,
+.fighterSet,
+.fighterDeck,
+.fighterLore {
 	font-weight: 400;
 	margin-bottom: 14px;
 	text-align: left;
@@ -252,6 +261,7 @@
 	font-style: italic;
 	text-align: center;
 	margin-bottom: 20px;
+	padding-left: 30px;
 }
 
 .filterCheckbox {
@@ -311,4 +321,29 @@
 }
 .link:hover {
 	color: #9191ef;
+}
+
+.more {
+	position: absolute;
+	right: -8px;
+	bottom: -2px;
+	background-color: black;
+	color: white;
+	padding: -0 9px 1px 10px;
+	border-top-left-radius: 16px;
+	width: fit-content;
+	margin-bottom: -2px;
+	border-bottom-right-radius: 16px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: 800;
+}
+.more:hover {
+	color: #999999;
+}
+
+.horizontalSeparator {
+	width: 100%;
+	display: block;
+	margin-top: 25px;
 }

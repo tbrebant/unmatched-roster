@@ -80,7 +80,7 @@ export default class DoDom {
 		}
 	}
 	
-	destroy () {
+	removeFromParent () {
 		if (this.parent) {
 			let index = this.parent.children.indexOf(this);
 			if (index > -1) {
@@ -88,6 +88,10 @@ export default class DoDom {
 			}
 		}
 		this.dom.parentNode.removeChild(this.dom);
+	}
+
+	destroy () {
+		this.removeFromParent();
 		this.dom = null;
 		this.destroyChildren();
 	}
