@@ -1,6 +1,7 @@
 ﻿export default {
-  roster: {
-    "0": {
+  roster: [
+    {
+      id: "0",
       name: "Medusa",
       back: "https://i.imgur.com/cfMnfuH.png",
       minis: ["https://i.imgur.com/tPXKCCD.png"],
@@ -17,7 +18,8 @@
       deck: 'https://unmatched.cards/umdb/decks/medusa',
       lore: 'https://en.wikipedia.org/wiki/Medusa'
     },
-    "1": {
+    {
+      id: "1",
       name: "Sinbad",
       back: "https://i.imgur.com/ZXplzL9.png",
       minis: ["https://i.imgur.com/6Mh7GdG.png"],
@@ -34,7 +36,8 @@
       deck: 'https://unmatched.cards/umdb/decks/sinbad',
       lore: 'https://en.wikipedia.org/wiki/Sinbad_the_Sailor'
     },
-    "2": {
+    {
+      id: "2",
       name: "Alice",
       back: "https://i.imgur.com/IPFwBck.png",
       minis: ["https://i.imgur.com/NHgsEcs.png"],
@@ -51,7 +54,8 @@
       deck: 'https://unmatched.cards/umdb/decks/alice',
       lore: 'https://en.wikipedia.org/wiki/Alice_(Alice%27s_Adventures_in_Wonderland)'
     },
-    "3": {
+    {
+      id: "3",
       name: "King Arthur",
       back: "https://i.imgur.com/V4L5MpH.png",
       minis: ["https://i.imgur.com/4w59eL1.png"],
@@ -68,7 +72,8 @@
       deck: 'https://unmatched.cards/umdb/decks/king-arthur',
       lore: 'https://en.wikipedia.org/wiki/King_Arthur'
     },
-    "4": {
+    {
+      id: "4",
       name: "Robin Hood",
       back: "https://i.imgur.com/iXqCbsI.png",
       minis: ["https://i.imgur.com/Y2N49YE.png"],
@@ -83,7 +88,8 @@
       deck: 'https://unmatched.cards/umdb/decks/robin-hood',
       lore: 'https://en.wikipedia.org/wiki/Robin_Hood'
     },
-    "5": {
+    {
+      id: "5",
       name: "Bigfoot",
       back: "https://i.imgur.com/3Ll6ePt.png",
       minis: ["https://i.imgur.com/QIEJqO4.png"],
@@ -98,7 +104,8 @@
       deck: 'https://unmatched.cards/umdb/decks/bigfoot',
       lore: 'https://en.wikipedia.org/wiki/Bigfoot'
     },
-    "6": {
+    {
+      id: "6",
       name: "Little Red Riding Hood",
       back: "https://i.imgur.com/daad4Se.png",
       minis: ["https://i.imgur.com/mSlDbbe.png"],
@@ -113,7 +120,8 @@
       deck: 'https://unmatched.cards/umdb/decks/little-red',
       lore: 'https://en.wikipedia.org/wiki/Little_Red_Riding_Hood'
     },
-    "7": {
+    {
+      id: "7",
       name: "Beowulf",
       back: "https://i.imgur.com/SYf2mGv.png",
       minis: ["https://i.imgur.com/EEroYpp.png"],
@@ -130,7 +138,8 @@
       deck: 'https://unmatched.cards/umdb/decks/beowulf',
       lore: 'https://en.wikipedia.org/wiki/Beowulf'
     },
-    "8": {
+    {
+      id: "8",
       name: "Bruce Lee",
       back: "https://i.imgur.com/bp2TeWi.png",
       minis: ["https://i.imgur.com/xVIYWQH.png"],
@@ -147,7 +156,8 @@
       deck: 'https://unmatched.cards/umdb/decks/bruce-lee',
       lore: 'https://en.wikipedia.org/wiki/Bruce_Lee'
     },
-    "9": {
+    {
+      id: "9",
       name: "InGen",
       back: "https://i.imgur.com/qWqgGXW.png",
       minis: ["https://i.imgur.com/5IzpjrJ.png"],
@@ -162,7 +172,8 @@
       deck: 'https://unmatched.cards/umdb/decks/ingen',
       lore: 'https://en.wikipedia.org/wiki/List_of_Jurassic_Park_characters#Robert_Muldoon'
     },
-    "10": {
+    {
+      id: "10",
       name: "Raptors",
       back: "https://i.imgur.com/WN0Y2jx.png",
       minis: ["https://i.imgur.com/nI600tL.png", "https://i.imgur.com/5Fmlq35.png", "https://i.imgur.com/BB9O5Lh.png"],
@@ -177,7 +188,8 @@
       deck: 'https://unmatched.cards/umdb/decks/raptors',
       lore: 'https://en.wikipedia.org/wiki/Dinosaurs_in_Jurassic_Park#Velociraptor'
     },
-    "11": {
+    {
+      id: "11",
       name: "Buffy",
       back: "https://i.imgur.com/ngYiS9k.png",
       minis: ["https://i.imgur.com/G3N9SgO.png"],
@@ -192,7 +204,8 @@
       deck: 'https://unmatched.cards/umdb/decks/buffy',
       lore: 'https://en.wikipedia.org/wiki/Buffy_Summers'
     },
-    "12": {
+    {
+      id: "12",
       name: "Willow",
       back: "https://i.imgur.com/uRyF4qg.png",
       minis: ["https://i.imgur.com/XhZvjb1.png"],
@@ -207,7 +220,8 @@
       deck: 'https://unmatched.cards/umdb/decks/willow',
       lore: 'https://en.wikipedia.org/wiki/Willow_Rosenberg'
     },
-    "13": {
+    {
+      id: "13",
       name: "Angel",
       back: "https://i.imgur.com/6G6c9IC.png",
       minis: ["https://i.imgur.com/FlNESMz.png"],
@@ -222,7 +236,8 @@
       deck: 'https://unmatched.cards/umdb/decks/angel',
       lore: 'https://en.wikipedia.org/wiki/Angel_(Buffy_the_Vampire_Slayer)'
     },
-    "14": {
+    {
+      id: "14",
       name: "Spike",
       back: "https://i.imgur.com/8PyWUM7.png",
       minis: ["https://i.imgur.com/Yv5xPOK.png"],
@@ -237,7 +252,8 @@
       deck: 'https://unmatched.cards/umdb/decks/spike',
       lore: 'https://en.wikipedia.org/wiki/Spike_(Buffy_the_Vampire_Slayer)'
     },
-    "15": {
+    {
+      id: "15",
       name: "Invisible Man",
       back: "https://i.imgur.com/sx9QD56.png",
       minis: ["https://i.imgur.com/5s89pIE.png"],
@@ -254,7 +270,8 @@
       deck: 'https://unmatched.cards/umdb/decks/invisible-man',
       lore: 'https://en.wikipedia.org/wiki/Invisible_Man'
     },
-    "16": {
+    {
+      id: "16",
       name: "Jekyll & Hyde",
       back: "https://i.imgur.com/h2X9eAT.png",
       minis: ["https://i.imgur.com/zwrKdS0.png"],
@@ -271,7 +288,8 @@
       deck: 'https://unmatched.cards/umdb/decks/jekyll-hyde',
       lore: 'https://en.wikipedia.org/wiki/Dr._Jekyll_and_Mr._Hyde_(character)'
     },
-    "17": {
+    {
+      id: "17",
       name: "Dracula",
       back: "https://i.imgur.com/a6wsl2J.png",
       minis: ["https://i.imgur.com/DaGYWgm.png"],
@@ -288,7 +306,8 @@
       deck: 'https://unmatched.cards/umdb/decks/dracula',
       lore: 'https://en.wikipedia.org/wiki/Dracula'
     },
-    "18": {
+    {
+      id: "18",
       name: "Sherlock Holmes",
       back: "https://i.imgur.com/5ePCxRL.png",
       minis: ["https://i.imgur.com/sDUY1ms.png"],
@@ -305,7 +324,8 @@
       deck: 'https://unmatched.cards/umdb/decks/sherlock-holmes',
       lore: 'https://en.wikipedia.org/wiki/Sherlock_Holmes'
     },
-    "19": {
+    {
+      id: "19",
       name: "Sun Wukong",
       back: "https://i.imgur.com/zoT0Fy5.png",
       minis: ["https://i.imgur.com/5jVlvbU.png"],
@@ -318,7 +338,8 @@
       deck: 'https://unmatched.cards/umdb/decks/sun-wukong',
       lore: 'https://en.wikipedia.org/wiki/Monkey_King'
     },
-    "20": {
+    {
+      id: "20",
       name: "Yennenga",
       back: "https://i.imgur.com/uIAJMUc.png",
       minis: ["https://i.imgur.com/YIwhJCV.png"],
@@ -333,7 +354,8 @@
       deck: 'https://unmatched.cards/umdb/decks/yennenga',
       lore: 'https://en.wikipedia.org/wiki/Yennenga'
     },
-    "21": {
+    {
+      id: "21",
       name: "Achilles",
       back: "https://i.imgur.com/6MwabDk.png",
       minis: ["https://i.imgur.com/SYE7TTm.png"],
@@ -348,7 +370,8 @@
       deck: 'https://unmatched.cards/umdb/decks/achilles',
       lore: 'https://en.wikipedia.org/wiki/Achilles'
     },
-    "22": {
+    {
+      id: "22",
       name: "Bloody Mary",
       back: "https://i.imgur.com/mhKXYTS.png",
       minis: ["https://i.imgur.com/siUSACx.png"],
@@ -363,7 +386,8 @@
       deck: 'https://unmatched.cards/umdb/decks/bloody-mary',
       lore: 'https://en.wikipedia.org/wiki/Bloody_Mary_folklore_in_popular_culture'
     },
-    "23": {
+    {
+      id: "23",
       name: "Deadpool",
       back: "https://i.imgur.com/NL4f6p9.png",
       minis: ["https://i.imgur.com/TGqsJ7S.png"],
@@ -378,7 +402,8 @@
       deck: 'https://unmatched.cards/umdb/decks/deadpool',
       lore: 'https://en.wikipedia.org/wiki/Deadpool'
     },
-    "24": {
+    {
+      id: "24",
       name: "Houdini",
       back: "https://i.imgur.com/pQmwZa1.png",
       minis: ["https://i.imgur.com/KjK1FZE.png"],
@@ -395,7 +420,8 @@
       deck: 'https://unmatched.cards/umdb/decks/harry-houdini',
       lore: 'https://en.wikipedia.org/wiki/Harry_Houdini'
     },
-    "25": {
+    {
+      id: "25",
       name: "The Genie",
       back: "https://i.imgur.com/2HvORti.png",
       minis: ["https://i.imgur.com/pVJ8vc7.png"],
@@ -412,7 +438,8 @@
       deck: 'https://unmatched.cards/umdb/decks/the-genie',
       lore: 'https://en.wikipedia.org/wiki/Genies_in_popular_culture'
     },
-    "26": {
+    {
+      id: "26",
       name: "T. Rex",
       back: "https://i.imgur.com/epE4lou.png",
       minis: ["https://i.imgur.com/6VtgrRy.png"],
@@ -427,7 +454,8 @@
       deck: 'https://unmatched.cards/umdb/decks/t-rex',
       lore: 'https://en.wikipedia.org/wiki/Rexy'
     },
-    "27": {
+    {
+      id: "27",
       name: "Dr. Sattler",
       back: "https://i.imgur.com/4V9lFj1.png",
       minis: ["https://i.imgur.com/wxQEi7U.png"],
@@ -442,7 +470,8 @@
       deck: 'https://unmatched.cards/umdb/decks/dr-ellie-sattler',
       lore: 'https://en.wikipedia.org/wiki/Ellie_Sattler'
     },
-    "28": {
+    {
+      id: "28",
       name: "Bullseye",
       back: "https://i.imgur.com/8N16P2Q.png",
       minis: ["https://i.imgur.com/MFTble1.png"],
@@ -457,7 +486,8 @@
       deck: 'https://unmatched.cards/umdb/decks/bullseye',
       lore: 'https://en.wikipedia.org/wiki/Bullseye_(character)'
     },
-    "29": {
+    {
+      id: "29",
       name: "Daredevil",
       back: "https://i.imgur.com/QJnzk2F.png",
       minis: ["https://i.imgur.com/1YDNloM.png"],
@@ -472,7 +502,8 @@
       deck: 'https://unmatched.cards/umdb/decks/daredevil',
       lore: 'https://en.wikipedia.org/wiki/Daredevil_(Marvel_Comics_character)'
     },
-    "30": {
+    {
+      id: "30",
       name: "Elektra",
       back: "https://i.imgur.com/euTPd5T.png",
       minis: ["https://i.imgur.com/hpD6o6r.png"],
@@ -487,7 +518,8 @@
       deck: 'https://unmatched.cards/umdb/decks/elektra',
       lore: 'https://en.wikipedia.org/wiki/Elektra_(character)'
     },
-    "31": {
+    {
+      id: "31",
       name: "Ghost Rider",
       back: "https://i.imgur.com/Gh2EOFW.png",
       minis: ["https://i.imgur.com/GDD7inp.png"],
@@ -502,7 +534,8 @@
       deck: 'https://unmatched.cards/umdb/decks/ghost-rider',
       lore: 'https://en.wikipedia.org/wiki/Ghost_Rider'
     },
-    "32": {
+    {
+      id: "32",
       name: "Luke Cage",
       back: "https://i.imgur.com/YBEqVnH.png",
       minis: ["https://i.imgur.com/P1dR6HL.png"],
@@ -517,7 +550,8 @@
       deck: 'https://unmatched.cards/umdb/decks/luke-cage',
       lore: 'https://en.wikipedia.org/wiki/Luke_Cage'
     },
-    "33": {
+    {
+      id: "33",
       name: "Moon Knight",
       back: "https://i.imgur.com/angeiSB.png",
       minis: ["https://i.imgur.com/7quLbl1.png"],
@@ -532,7 +566,8 @@
       deck: 'https://unmatched.cards/umdb/decks/moon-knight',
       lore: 'https://en.wikipedia.org/wiki/Moon_Knight'
     },
-    "34": {
+    {
+      id: "34",
       name: "Squirrel Girl",
       back: "https://i.imgur.com/xWVDOeB.png",
       minis: ["https://i.imgur.com/kqTUiZI.png"],
@@ -545,7 +580,8 @@
       deck: null,
       lore: 'https://en.wikipedia.org/wiki/Squirrel_Girl'
     },
-    "35": {
+    {
+      id: "35",
       name: "Cloak & Dagger",
       back: "https://i.imgur.com/fhX2IyN.png",
       minis: ["https://i.imgur.com/LbR8X8c.png", "https://i.imgur.com/zVypDCK.png"],
@@ -558,7 +594,8 @@
       deck: null,
       lore: 'https://en.wikipedia.org/wiki/Cloak_and_Dagger_(characters)'
     },
-    "36": {
+    {
+      id: "36",
       name: "Ms. Marvel",
       back: "https://i.imgur.com/eoWZcBx.png",
       minis: ["https://i.imgur.com/N3yfxfL.png"],
@@ -571,5 +608,5 @@
       deck: null,
       lore: 'https://en.wikipedia.org/wiki/Kamala_Khan'
     }
-  }
+  ]
 };

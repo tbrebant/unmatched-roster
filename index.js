@@ -63,9 +63,9 @@ class App extends DoDom {
 
     // Create fighters sheets
     let index = 0;
-    for (let id in ROSTER) {
-      let fighterData = ROSTER[id];
-      fighterData.id = id;
+    for (let i = 0; i < ROSTER.length; i++) {
+      let fighterData = ROSTER[i];
+      let id = fighterData.id;
       fighterData.releaseOrder = ++index;
       this.fighters[id] = new FighterPanel(fighterData);
     }
@@ -92,7 +92,8 @@ class App extends DoDom {
   //▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
   updateListFromFilters () {
     const noFilter = !Object.keys(this.filters).length;
-    for (let id in ROSTER) {
+    for (let i = 0; i < ROSTER.length; i++) {
+      let id = ROSTER[i].id;
       let visible = noFilter || this.filters[id];
       this.fighters[id].setVisibility(visible);
     }
@@ -137,7 +138,8 @@ class App extends DoDom {
 
   //▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
   updateFilterWindowFromFilters () {
-    for (let id in ROSTER) {
+    for (let i = 0; i < ROSTER.length; i++) {
+      let id = ROSTER[i].id;
       this.filterWindow.checkboxes[id].dom.checked = !!this.filters[id];
     }
     this.filterWindow.sortOrderCheckbox.dom.checked = this.sortAlphabetically;
@@ -187,8 +189,9 @@ class App extends DoDom {
 
     // Checkboxes
     this.filterWindow.checkboxes = {};
-    for (let id in ROSTER) {
-      let checkbox = this.addCheckbox(this.filterWindowsContent, ROSTER[id].name, () => {
+    for (let i = 0; i < ROSTER.length; i++) {
+      let id = ROSTER[i].id;
+      let checkbox = this.addCheckbox(this.filterWindowsContent, ROSTER[i].name, () => {
         this.filters[id] = checkbox.dom.checked;
         if (!this.filters[id]) { delete this.filters[id]; }
         this.updateListFromFilters();
