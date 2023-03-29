@@ -5,7 +5,7 @@
       name: "Medusa",
       back: "https://i.imgur.com/cfMnfuH.png",
       minis: ["https://i.imgur.com/tPXKCCD.png"],
-      desc: "Medusa is a ranged character, supported by 3 harpies melee sidekicks. She can deal massive combat damage, do direct (unavoidable) ones and force her opponent to discard cards. Without mentionning harpies resurrection... She's traditionally considered as one of the strongest fighters released.",
+      desc: "Medusa is a ranged character, supported by 3 harpy melee sidekicks. She can deal massive combat damage, do direct (unavoidable) damage and force her opponent to discard cards. Without mentioning the harpies' resurrection... She's traditionally considered as one of the strongest fighters released.",
       ability: "At the start of her turn, she may deal 1 damage to an opposing fighter in her zone.",
       guides: [{
         name: "Baked Goods", url: "https://www.youtube.com/watch?v=tVO2F9Q7E2w"
@@ -41,7 +41,7 @@
       name: "Alice",
       back: "https://i.imgur.com/IPFwBck.png",
       minis: ["https://i.imgur.com/NHgsEcs.png"],
-      desc: "Alice is a melee fighter with a Jabberwock sidekick. She has two stances: <i>Big</i>, which increases the value of her attacks and <i>Small</i>, which increase the value of her defense. She can switch from one to the other with card effects.",
+      desc: "Alice is a melee fighter with a Jabberwock sidekick. She has two stances: <i>Big</i>, which increases the value of her attacks and <i>Small</i>, which increases the value of her defense. She can switch from one to the other with card effects.",
       ability: "Player chooses if Alice starts the game <i>Big</i> or <i>Small</i>. When Alice is <i>Big</i>, she adds 2 to the value of her attack cards. When she's <i>Small</i>, she adds 1 to the value of her defense cards.",
       guides: [{
         name: "Baked Goods", url: "https://www.youtube.com/watch?v=hWJtQbat4r4"
@@ -95,7 +95,7 @@
       name: "Robin Hood",
       back: "https://i.imgur.com/iXqCbsI.png",
       minis: ["https://i.imgur.com/Y2N49YE.png"],
-      desc: "Robin Hood is a ranged (obviously) fighter, supported by 4 melee outlaws sidekicks. He excels at hit and run.",
+      desc: "Robin Hood is a ranged (obviously) fighter, supported by 4 melee outlaw sidekicks. He excels at hit and run.",
       ability: "After an attack, he may move the attacking fighter up to 2 spaces.",
       guides: [{
         name: "Baked Goods", url: "https://www.youtube.com/watch?v=45BTbi7hOy4"
@@ -111,7 +111,7 @@
       name: "Bigfoot",
       back: "https://i.imgur.com/3Ll6ePt.png",
       minis: ["https://i.imgur.com/QIEJqO4.png"],
-      desc: "Bigfoot is a melee fighter, supported by a Jackalope sidekick. He large raw damage and can refill his hand quickly. He's traditionally considered as one of the strongest fighters released.",
+      desc: "Bigfoot is a melee fighter, supported by a Jackalope sidekick. He has large raw damage and can refill his hand quickly. He's traditionally considered one of the strongest fighters released.",
       ability: "At the end of his turn, if there are no opposing fighters in Bigfoot's zone, he may draw 1 card.",
       guides: [{
         name: "Baked Goods", url: "https://www.youtube.com/watch?v=igVVCDxrRHE"
@@ -177,7 +177,7 @@
       name: "Jekyll & Hyde",
       back: "https://i.imgur.com/h2X9eAT.png",
       minis: ["https://i.imgur.com/zwrKdS0.png"],
-      desc: "Jekyll & Hyde is a melee fighter wich uses two stances: <i>Jekyll</i> or <i>Hyde</i>. <i>Hyde</i> can do devastating damage but is also exhausting the fighter in different ways.",
+      desc: "Jekyll & Hyde is a melee fighter which uses two stances: <i>Jekyll</i> or <i>Hyde</i>. <i>Hyde</i> can do devastating damage but this also exhausts the fighter in different ways.",
       ability: "He starts the game as Dr. Jekyll. At the start of his turn, he may transform into Dr. <i>Jekyll</i> or Mr. <i>Hyde</i>. When he does a maneuver while being Mr. <i>Hyde</i>, he takes 1 damage.",
       guides: [{
         name: "Baked Goods", url: "https://www.youtube.com/watch?v=9DW9KCzypDo"
@@ -213,7 +213,7 @@
       name: "Sherlock Holmes",
       back: "https://i.imgur.com/5ePCxRL.png",
       minis: ["https://i.imgur.com/sDUY1ms.png"],
-      desc: "Sherlock is a melee fighter, supported by Dr. Watson, a ranged sidekick. He has multiple ways at looking opponent's hand and can trigger powerful effects if he can guess some characteristics of opponent's cards. He's traditionally considered as one of the strongest fighters released when played by a skilled player.",
+      desc: "Sherlock is a melee fighter, supported by Dr. Watson, a ranged sidekick. He has multiple ways of looking at the opponent's hand and can trigger powerful effects if he can guess some characteristics of the opponent's cards. He's traditionally considered one of the strongest fighters released when played by a skilled player.",
       ability: "Effects on <i>Holmes</i> and <i>Dr. Watson</i> cards cannot be cancelled by an opponent. Effects on <i>Any</i> cards can still be cancelled.",
       guides: [{
         name: "Baked Goods", url: "https://www.youtube.com/watch?v=YlKzLNe9sD0"
@@ -247,7 +247,7 @@
       name: "Willow",
       back: "https://i.imgur.com/uRyF4qg.png",
       minis: ["https://i.imgur.com/XhZvjb1.png"],
-      desc: "Willow is a ranged fighter, supported by Tara, a ranged sidekick. When Willow is dealt damage, she turns into Dark Willow who allows some of her cards to have additional powerful effects that are oftenalso exhausting her.",
+      desc: "Willow is a ranged fighter, supported by Tara, a ranged sidekick. When Willow is dealt damage, she turns into Dark Willow who allows some of her cards to have additional powerful effects that often also exhaust her.",
       ability: "When Willow or Tara is dealt damage, Willow becomes Dark Willow. At the end of her turn, if Dark Willow is adjacent to Tara, she becomes Willow.",
       guides: [{
         name: "Watch It Played", url: "https://youtu.be/QthjkXuo4D0?t=242"
@@ -295,7 +295,7 @@
       name: "Little Red Riding Hood",
       back: "https://i.imgur.com/daad4Se.png",
       minis: ["https://i.imgur.com/mSlDbbe.png"],
-      desc: "Little Red is a melee fighter, supported by a Huntsman sidekick. She's featuring a card-combo mechanism: matching icons on the cards she plays to the one in her \"basket\" (discard pile), triggers potent effects.",
+      desc: "Little Red is a melee fighter, supported by a Huntsman sidekick. She features a card-combo mechanism: matching icons on the cards she plays to the one in her \"basket\" (discard pile), triggers potent effects.",
       ability: "Resolve an effect on a card she plays if the symbol next to the effect matches the item in her basket.",
       guides: [{
         name: "Baked Goods", url: "https://www.youtube.com/watch?v=FfcDojVIbI4"
@@ -311,7 +311,7 @@
       name: "Beowulf",
       back: "https://i.imgur.com/SYf2mGv.png",
       minis: ["https://i.imgur.com/EEroYpp.png"],
-      desc: "Beowulf is a melee fighter, supported by Wiglaf sidekick. Beowulf uses rage points to increase the effects of his cards. He gets one rage point everytime he loses life or from card effects.",
+      desc: "Beowulf is a melee fighter, supported by Wiglaf sidekick. Beowulf uses rage points to increase the effects of his cards. He gets one rage point every time he loses life or from card effects.",
       ability: "Beowulf starts with 1 Rage. When Beowulf is dealt damage, he gains 1 Rage. Beowulf has a maximum of 3 rage.",
       guides: [{
         name: "Baked Goods", url: "https://www.youtube.com/watch?v=oUaiVR2PlwY"
@@ -345,7 +345,7 @@
       name: "Sun Wukong",
       back: "https://i.imgur.com/zoT0Fy5.png",
       minis: ["https://i.imgur.com/5jVlvbU.png"],
-      desc: "Wukong is a melee fighter with three <i>Clones</i> as sidekicks. He can take damage to put clones out. All of Sun Wukong’s cards can be used for him or any of his <i>Clones</i>.",
+      desc: "Sun Wukong is a melee fighter with three <i>Clones</i> as sidekicks. He can take damage to put clones out. All of Sun Wukong’s cards can be used for him or any of his <i>Clones</i>.",
       ability: "At the start of his turn, he may take 1 damage to summon a <i>Clone</i> in an empty space adjacent to him. He does not start with any <i>Clones</i> on the board.",
       guides: [{
         name: "To The Table Top!", url: "https://www.youtube.com/watch?v=JUVKcHjIVa8"
@@ -359,7 +359,7 @@
       name: "Yennenga",
       back: "https://i.imgur.com/uIAJMUc.png",
       minis: ["https://i.imgur.com/YIwhJCV.png"],
-      desc: "Yennenga is a ranged fighter, supported by 2 ranged <i>Archers</i> sidekicks. She has many effects based on after-battle movement. She can redirect damage assigned to her to one of her <i>Archer</i> sidekick, which she can also resurrect.",
+      desc: "Yennenga is a ranged fighter, supported by 2 ranged <i>Archers</i> sidekicks. She has many effects based on after-battle movement. She can redirect damage assigned to her to one of her <i>Archer</i> sidekicks, which she can also resurrect.",
       ability: "If Yennenga would take damage, she may assign any amount of that damage to one or more <i>Archers</i> in her zone instead.",
       guides: [{
         name: "Baked Goods", url: "https://www.youtube.com/watch?v=1y_oc8YJdOQ"
@@ -407,7 +407,7 @@
       name: "Ghost Rider",
       back: "https://i.imgur.com/Gh2EOFW.png",
       minis: ["https://i.imgur.com/GDD7inp.png"],
-      desc: "Ghost Rider is a melee fighter using <i>Hellfire</i> tokens to increase his cards effects and roll on his opponents face, doing them damage by doing so.",
+      desc: "Ghost Rider is a melee fighter using <i>Hellfire</i> tokens to increase his cards' effects and roll over his opponent's face, doing them damage by doing so.",
       ability: "Ghost Rider starts the game with 5 <i>Hellfire</i>. When he maneuvers he may spend 1 <i>Hellfire</i>. If he does, he increases his movement to 4 and may move through opposing fighters. Then he deals 1 damage to each opposing fighter he moved through.",
       guides: [{
         name: "To The Table Top!", url: "https://www.youtube.com/watch?v=LC0t8eQMkI4"
@@ -423,7 +423,7 @@
       name: "Luke Cage",
       back: "https://i.imgur.com/YBEqVnH.png",
       minis: ["https://i.imgur.com/P1dR6HL.png"],
-      desc: "Luke Cage is a melee fighter, supported by ranged Misty Knight sidekick. In general, from his ability and also cards effects, he is very good at defending.",
+      desc: "Luke Cage is a melee fighter, supported by ranged Misty Knight sidekick. In general, from his ability and also card's effects, he is very good at defending.",
       ability: "Luke Cage takes 2 less combat damage from attacks. When defending, Luke Cage wins combat if he takes no damage, even if he didn't play a card.",
       guides: [{
         name: "To The Table Top!", url: "https://www.youtube.com/watch?v=_ZgWf_PRMrg"
@@ -439,7 +439,7 @@
       name: "Moon Knight",
       back: "https://i.imgur.com/angeiSB.png",
       minis: ["https://i.imgur.com/7quLbl1.png"],
-      desc: "Moon Knight is a melee fighter who's switching every turn between his different forms that have different abilities.",
+      desc: "Moon Knight is a melee fighter who switches every turn between his different forms that have different abilities.",
       ability: "As <i>Moon Knight</i>, at the start of your turn, move up to 2 spaces. As <i>Khonshu</i> adds +2 to the value of attack cards. He does not take damage from effects other than combat. As <i>Mr. Knight</i>, adds +1 to all defense values. As <i>all of them</i>: at the end of turn, change to your next identity.",
       guides: [{
         name: "To The Table Top!", url: "https://www.youtube.com/watch?v=bVbjc44uzwU"
@@ -519,7 +519,7 @@
       name: "Dr. Sattler",
       back: "https://i.imgur.com/4V9lFj1.png",
       minis: ["https://i.imgur.com/wxQEi7U.png"],
-      desc: "Dr. Sattler is a melee fighter, supported by Dr. Malcolm melee sidekick. They can heal for a huge amount of life. They leverage <i>Insight</i> tokens that they are placing on the board.",
+      desc: "Dr. Sattler is a melee fighter, supported by Dr. Malcolm melee sidekick. They can heal for a huge amount of life. They leverage <i>Insight</i> tokens that they place on the board.",
       ability: "After Dr. Sattler or Dr. Malcolm move, they place an <i>Insight</i> token in their new space. They have 5 <i>Insight</i> tokens. Whenever either of them moves to a new space, place an <i>Insight</i> token in their new space. Those tokens have no effect themselves but some cards interact with them.",
       guides: [{
         name: "To The Table Top!", url: "https://www.youtube.com/watch?v=Ft4JNGHuPp8"
@@ -553,7 +553,7 @@
       name: "The Genie",
       back: "https://i.imgur.com/2HvORti.png",
       minis: ["https://i.imgur.com/pVJ8vc7.png"],
-      desc: "The Genie is a ranged fighter which deals more damage when adjacent to the opponent. He can draw a lot of cards and discard them to play more actions.",
+      desc: "The Genie is a ranged fighter who deals more damage when adjacent to the opponent. He can draw a lot of cards and discard them to play more actions.",
       ability: "At the start of his turn, he may discard 1 card to gain 1 action.",
       guides: [{
         name: "Lord of the Board", url: "https://www.youtube.com/watch?v=i47pLhncBlc&t=96s"
@@ -585,7 +585,7 @@
       name: "Cloak & Dagger",
       back: "https://i.imgur.com/fhX2IyN.png",
       minis: ["https://i.imgur.com/LbR8X8c.png", "https://i.imgur.com/zVypDCK.png"],
-      desc: "Cloak & Dagger are melee fighters that have a lot of interactions: the can bounce an opponent from one to the other, they can balance their life points total between them, heal each other, they can swap their places and more.",
+      desc: "Cloak & Dagger are melee fighters that have a lot of interactions: they can bounce an opponent from one to the other, they can balance their life points total between them, heal each other, they can swap their places and more.",
       ability: "After attacking, if <i>Cloak</i> dealt at least 2 combat damage, his opponent discards 1 card. After attacking, if <i>Dagger</i> dealt at least 2 combat damage, gain 1 action.",
       guides: [{
         name: "Baked Goods", url: "https://www.youtube.com/watch?v=5bgmQGRcLyM"
