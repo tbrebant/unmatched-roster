@@ -349,6 +349,8 @@
       ability: "At the start of his turn, he may take 1 damage to summon a <i>Clone</i> in an empty space adjacent to him. He does not start with any <i>Clones</i> on the board.",
       guides: [{
         name: "To The Table Top!", url: "https://www.youtube.com/watch?v=JUVKcHjIVa8"
+      }, {
+        name: "Baked Goods", url: "https://www.youtube.com/watch?v=DpTCxwW3w_E"
       }],
       set: ["Unmatched: Battle of Legends, Volume Two", "https://boardgamegeek.com/boardgame/335764/unmatched-battle-legends-volume-two"],
       deck: 'https://unmatched.cards/umdb/decks/sun-wukong',
@@ -577,7 +579,7 @@
         name: "Baked Goods", url: "https://www.youtube.com/watch?v=o5qHzhbOw7E"
       }],
       set: ["Teen Spirit", "https://boardgamegeek.com/boardgame/326936/unmatched-teen-spirit"],
-      deck: null,
+      deck: "https://unmatched.cards/umdb/decks/squirrel-girl",
       lore: 'https://en.wikipedia.org/wiki/Squirrel_Girl'
     },
     {
@@ -591,7 +593,7 @@
         name: "Baked Goods", url: "https://www.youtube.com/watch?v=5bgmQGRcLyM"
       }],
       set: ["Teen Spirit", "https://boardgamegeek.com/boardgame/326936/unmatched-teen-spirit"],
-      deck: null,
+      deck: "https://unmatched.cards/umdb/decks/cloak-and-dagger",
       lore: 'https://en.wikipedia.org/wiki/Cloak_and_Dagger_(characters)'
     },
     {
@@ -605,8 +607,64 @@
         name: "Baked Goods", url: "https://www.youtube.com/watch?v=L8RoDnRiRHg"
       }],
       set: ["Teen Spirit", "https://boardgamegeek.com/boardgame/326936/unmatched-teen-spirit"],
-      deck: null,
+      deck: "https://unmatched.cards/umdb/decks/ms-marvel",
       lore: 'https://en.wikipedia.org/wiki/Kamala_Khan'
-    }
+    },
+    {
+      id: "37",
+      name: "Nikola Tesla",
+      back: "assets/backs/37.png",
+      minis: ["assets/minis/37.png"],
+      desc: "Nikola Tesla is a melee fighter juggling with the charges of his two coils to get additional bonuses and interesting effects from his cards.",
+      ability: "He has two coils and starts the game with one charged. At the end of his turn, he charges one coil. At the start of his turn, if both coils are charged, he deals 1 damage to each opposing fighter adjacent to him and he moves them up to 1 space.",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=L3K-MRw84to"
+      }],
+      set: ["Unmatched Adventures: Tales to Amaze", "https://boardgamegeek.com/boardgame/381297/unmatched-adventures-tales-amaze"],
+      deck: "https://unmatched.cards/umdb/decks/nikola-tesla",
+      lore: 'https://en.wikipedia.org/wiki/Nikola_Tesla'
+    },
+    {
+      id: "38",
+      name: "Dr. Jill Trent",
+      back: "assets/backs/38.png",
+      minis: ["assets/minis/38.png"],
+      desc: "Dr. Jill Trent and her side kick Daisy are melee fighters. She can choose between two different stances represented by her active gadget.",
+      ability: "At the start of her turn, she activates one of her two gadgets. Whenever she attacks, the active gadget's effect resolves.<br/>- Gadget Hypnoray Blaster: DURING COMBAT: <i>If your card's printed value is lower than your opponent's, reveal the top card of your opponent's deck. Increase the value of your attack by the BOOST value of the revealed card.</i><br/>- Gadget Ultrabiotic Tonic: <i>AFTER COMBAT: If your card's printed value is higher than your opponent's, Jill Trent Recovers 1 health.</i>",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=UQ4SBsbwdoE"
+      }],
+      set: ["Unmatched Adventures: Tales to Amaze", "https://boardgamegeek.com/boardgame/381297/unmatched-adventures-tales-amaze"],
+      deck: "https://unmatched.cards/umdb/decks/dr-jill-trent",
+      lore: { name: 'The Revengerists', url: 'https://revengerists.fandom.com/wiki/Jill_Trent,_Science_Sleuth' }
+    },
+    {
+      id: "39",
+      name: "The Golden Bat",
+      back: "assets/backs/39.png",
+      minis: ["assets/minis/39.png"],
+      desc: "The Golden Bat is a melee fighter who can hit hard when attacking before doing any maneuver. He is also quite fast with 3 movement and has a couple of ways to move around with some of his cards effects.",
+      ability: "If he hasn't taken a Maneuver action this turn, he adds +2 to the value of his attacks.",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=cmg7TOSyugs"
+      }],
+      set: ["Unmatched Adventures: Tales to Amaze", "https://boardgamegeek.com/boardgame/381297/unmatched-adventures-tales-amaze"],
+      deck: "https://unmatched.cards/umdb/decks/golden-bat",
+      lore: 'https://en.wikipedia.org/wiki/The_Golden_Bat'
+    },
+    {
+      id: "40",
+      name: "Annie Christmas",
+      back: "assets/backs/40.png",
+      minis: ["assets/minis/40.png"],
+      desc: "Annie Christmas is a melee fighter and her sidekick Charlie a ranged one. Annie Christmas can hit particularly hard when she has less life point than her opponent and with direct damages from card effects.",
+      ability: "She adds +2 to the value of her attacks if she has less health than the defender.",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=XesXRXsPPeQ"
+      }],
+      set: ["Unmatched Adventures: Tales to Amaze", "https://boardgamegeek.com/boardgame/381297/unmatched-adventures-tales-amaze"],
+      deck: "https://unmatched.cards/umdb/decks/annie-christmas",
+      lore: 'https://en.wikipedia.org/wiki/Annie_Christmas'
+    },
   ]
 };

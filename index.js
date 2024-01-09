@@ -331,7 +331,7 @@ class FighterPanel extends DoDom {
     // Lore
     if (fighterData.deck) {
       let deckDetails = additionalContent.addDoDom('div', { text: 'History: ', class: 'fighterLore' });
-      addHrefLink(deckDetails, 'Wikipedia', fighterData.lore, 'guideLink');
+      addHrefLink(deckDetails, fighterData.lore.name || 'Wikipedia', fighterData.lore.url || fighterData.lore, 'guideLink');
     }
   }
 }
