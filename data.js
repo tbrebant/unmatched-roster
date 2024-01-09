@@ -613,8 +613,8 @@
     {
       id: "37",
       name: "Nikola Tesla",
-      back: "assets/backs/37.png",
-      minis: ["assets/minis/37.png"],
+      back: "blob:https://imgur.com/e6dd2f84-ad92-4080-ba78-ccb7a4180130",
+      minis: ["https://i.imgur.com/doWQfAu.png"],
       desc: "Nikola Tesla is a melee fighter juggling with the charges of his two coils to get additional bonuses and interesting effects from his cards.",
       ability: "He has two coils and starts the game with one charged. At the end of his turn, he charges one coil. At the start of his turn, if both coils are charged, he deals 1 damage to each opposing fighter adjacent to him and he moves them up to 1 space.",
       guides: [{
@@ -627,8 +627,8 @@
     {
       id: "38",
       name: "Dr. Jill Trent",
-      back: "assets/backs/38.png",
-      minis: ["assets/minis/38.png"],
+      back: "https://i.imgur.com/kl5QnQp.png",
+      minis: ["https://i.imgur.com/4yH799l.png"],
       desc: "Dr. Jill Trent and her side kick Daisy are melee fighters. She can choose between two different stances represented by her active gadget.",
       ability: "At the start of her turn, she activates one of her two gadgets. Whenever she attacks, the active gadget's effect resolves.<br/>- Gadget Hypnoray Blaster: DURING COMBAT: <i>If your card's printed value is lower than your opponent's, reveal the top card of your opponent's deck. Increase the value of your attack by the BOOST value of the revealed card.</i><br/>- Gadget Ultrabiotic Tonic: <i>AFTER COMBAT: If your card's printed value is higher than your opponent's, Jill Trent Recovers 1 health.</i>",
       guides: [{
@@ -641,8 +641,8 @@
     {
       id: "39",
       name: "The Golden Bat",
-      back: "assets/backs/39.png",
-      minis: ["assets/minis/39.png"],
+      back: "https://i.imgur.com/VNUpu7s.png",
+      minis: ["https://i.imgur.com/5ZmKPCt.png"],
       desc: "The Golden Bat is a melee fighter who can hit hard when attacking before doing any maneuver. He is also quite fast with 3 movement and has a couple of ways to move around with some of his cards effects.",
       ability: "If he hasn't taken a Maneuver action this turn, he adds +2 to the value of his attacks.",
       guides: [{
@@ -655,8 +655,8 @@
     {
       id: "40",
       name: "Annie Christmas",
-      back: "assets/backs/40.png",
-      minis: ["assets/minis/40.png"],
+      back: "https://i.imgur.com/vbYI0iK.png",
+      minis: ["https://i.imgur.com/kQRm2OG.png"],
       desc: "Annie Christmas is a melee fighter and her sidekick Charlie a ranged one. Annie Christmas can hit particularly hard when she has less life point than her opponent and with direct damages from card effects.",
       ability: "She adds +2 to the value of her attacks if she has less health than the defender.",
       guides: [{
