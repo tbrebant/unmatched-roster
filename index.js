@@ -1,5 +1,5 @@
-import DATA from './data.js';
-import DoDom from './DoDom.js';
+import DATA from './data.js?v=1';
+import DoDom from './DoDom.js?v=1';
 
 const ROSTER = DATA.roster;
 
