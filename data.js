@@ -610,10 +610,6 @@
       deck: "https://unmatched.cards/umdb/decks/ms-marvel",
       lore: 'https://en.wikipedia.org/wiki/Kamala_Khan'
     },
-
-
-    
-
     {
       id: "37",
       name: "Nikola Tesla",
@@ -670,15 +666,5 @@
       deck: "https://unmatched.cards/umdb/decks/annie-christmas",
       lore: 'https://en.wikipedia.org/wiki/Annie_Christmas'
     },
-
-
-
-
-
-
-
-
-
-
   ]
 };
