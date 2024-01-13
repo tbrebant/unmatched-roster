@@ -226,12 +226,43 @@ class App extends DoDom {
     // Separator
     this.filterWindowsContent.addDoDom('div', { class: 'horizontalSeparator' });
 
+
+    // Buttons line
+    this.filterWindowBtnLine = this.filterWindowsContent.addDoDom('div', {
+      class: 'filterWindowBtnLine'
+    });
+
     // Clear filters
-    this.filterWindowsContent.addDoDom('div', {
+    this.filterWindowBtnLine.addDoDom('span', {
       class: 'clearFilters',
       text: 'Clear filters',
       onClick: (e) => {
         this.clearFilters();
+      }
+    });
+
+    // Separator
+    this.filterWindowBtnLine.addDoDom('span', { text: ' - ', styles: { margin: '0 10px' } });
+
+    // Copy url
+    this.filterWindowBtnLine.addDoDom('span', {
+      class: 'copyUrl',
+      text: 'Copy url',
+      onClick: (e) => {
+        navigator.clipboard.writeText(window.location.href);
+        alert('Url copied in clipboard');
+      }
+    });
+
+    // Separator
+    this.filterWindowBtnLine.addDoDom('span', { text: ' - ', styles: { margin: '0 10px' } });
+
+    // Done
+    this.filterWindowBtnLine.addDoDom('span', {
+      class: 'doneBtn',
+      text: 'Done',
+      onClick: (e) => {
+        this.filterWindow.hide();
       }
     });
 

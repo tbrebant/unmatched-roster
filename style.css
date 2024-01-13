@@ -348,6 +348,12 @@
 	margin-top: 25px;
 }
 
-.clearFilters {
+.clearFilters,
+.copyUrl,
+.doneBtn {
 	cursor: pointer;
+}
+
+.filterWindowBtnLine {
+	text-align: center;
 }
