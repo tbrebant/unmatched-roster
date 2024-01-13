@@ -347,3 +347,7 @@
 	display: block;
 	margin-top: 25px;
 }
+
+.clearFilters {
+	cursor: pointer;
+}

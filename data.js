@@ -576,6 +576,8 @@
       desc: "Squirrel Girl is a melee fighter, supported by 8 <i>Squirrels</i> small fighters sidekicks. Small fighters can be stacked up to 4 in a single space, even if there is already a normal fighter on it. They can also move through enemies. She cares about having a lot of squirrels around her or enemies to trigger improved card effects.",
       ability: "At the start of her turn, she summons a squirrel in a space adjacent to her. Squirrels are small fighters.",
       guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=YxARGfUu0vQ"
+      }, {
         name: "Baked Goods", url: "https://www.youtube.com/watch?v=o5qHzhbOw7E"
       }],
       set: ["Teen Spirit", "https://boardgamegeek.com/boardgame/326936/unmatched-teen-spirit"],
@@ -590,6 +592,8 @@
       desc: "Cloak & Dagger are melee fighters that have a lot of interactions: they can bounce an opponent from one to the other, they can balance their life points total between them, heal each other, they can swap their places and more.",
       ability: "After attacking, if <i>Cloak</i> dealt at least 2 combat damage, his opponent discards 1 card. After attacking, if <i>Dagger</i> dealt at least 2 combat damage, gain 1 action.",
       guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=L4lKirHrfSk"
+      }, {
         name: "Baked Goods", url: "https://www.youtube.com/watch?v=5bgmQGRcLyM"
       }],
       set: ["Teen Spirit", "https://boardgamegeek.com/boardgame/326936/unmatched-teen-spirit"],
@@ -604,11 +608,109 @@
       desc: "Ms Marvel is a melee fighter who cares about the zone(s) she's in and about having a large hand.",
       ability: "At the start of her turn, she may move 1 space. She can attack from up to 2 spaces away, ignoring zones.",
       guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=kIBhEhVQYHs"
+      }, {
         name: "Baked Goods", url: "https://www.youtube.com/watch?v=L8RoDnRiRHg"
       }],
       set: ["Teen Spirit", "https://boardgamegeek.com/boardgame/326936/unmatched-teen-spirit"],
       deck: "https://unmatched.cards/umdb/decks/ms-marvel",
       lore: 'https://en.wikipedia.org/wiki/Kamala_Khan'
+    },
+    {
+      id: "41",
+      name: "Black Widow",
+      back: "https://i.imgur.com/AaNJasX.png",
+      minis: ["https://i.imgur.com/rx3Wp4N.png"],
+      desc: "Black Widow and her Maria Hill sidekick are ranged fighters. She tries to meet her special Missions cards condition to obtain different kind of advantages. She has multiple ways to save her sidekick's life.",
+      ability: "Black Widow has special scheme cards called Missions requiring special conditions to be played. Whenever a mission is completed, she gets a new one. She starts the game with a mission in her hand.",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=-XFE0Kg7hpI"
+      }, {
+        name: "Baked Goods", url: "https://www.youtube.com/watch?v=4YvCpuvREaU"
+      }],
+      set: ["For King and Country", "https://boardgamegeek.com/boardgame/326937/unmatched-king-and-country"],
+      deck: "https://unmatched.cards/umdb/decks/black-widow",
+      lore: ''
+    },
+    {
+      id: "42",
+      name: "Black Panther",
+      back: "https://i.imgur.com/MbLx8Zl.png",
+      minis: ["https://i.imgur.com/iWWTw1n.png"],
+      desc: "Black Panther is a melee fighter and his sidekick Shuri a ranged one. He can steal opponents cards from the top of their deck and use them later to Boost for movement or some of his attacks. He has multiple attacks that can be boosted.",
+      ability: "Whenever he Boosts, he draws 1 card. Some of his cards effects lets him store opponents cards in his Vibranium Suit. He can use them to Boost.",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=CP3_EH6tWu8"
+      }, {
+        name: "Baked Goods", url: "https://www.youtube.com/watch?v=3cIPViTdsnQ"
+      }],
+      set: ["For King and Country", "https://boardgamegeek.com/boardgame/326937/unmatched-king-and-country"],
+      deck: "https://unmatched.cards/umdb/decks/black-panther",
+      lore: ''
+    },
+    {
+      id: "43",
+      name: "Winter Soldier",
+      back: "https://i.imgur.com/E6WWMwl.png",
+      minis: ["https://i.imgur.com/Dg6wUHr.png"],
+      desc: "Winter Soldier is a ranged fighter. His cards effects cannot be canceled but the drawback is that a lot of them include effects beneficial for his opponent. Those unwanted effects can be mitigated when playing well.",
+      ability: "Effects on his cards cannot be canceled.",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=3mpB5W2Df38"
+      }, {
+        name: "Baked Goods", url: "https://www.youtube.com/watch?v=DrluaIQtAvc"
+      }],
+      set: ["For King and Country", "https://boardgamegeek.com/boardgame/326937/unmatched-king-and-country"],
+      deck: "https://unmatched.cards/umdb/decks/winter-soldier",
+      lore: ''
+    },
+    {
+      id: "44",
+      name: "Spider-Man",
+      back: "https://i.imgur.com/SOFN52e.png",
+      minis: ["https://i.imgur.com/lMwcdR7.png"],
+      desc: "Spider-Man is a melee fighter able to foresee the attacks thrown at him. If player knows well his opponent's deck, it can be devastating. He has multiple cards allowing him to move in any space in his zone.",
+      ability: "When an opponent attacks him, before he plays a defense card, they must tell the printed value of their card.",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=gEgLSIm-vdg"
+      }, {
+        name: "Baked Goods", url: "https://www.youtube.com/watch?v=U4bP5UtCw00"
+      }],
+      set: ["Brains and Brawn", "https://boardgamegeek.com/boardgame/383467/unmatched-brains-and-brawn"],
+      deck: "https://unmatched.cards/umdb/decks/spider_man",
+      lore: 'https://fr.wikipedia.org/wiki/Spider-Man'
+    },
+    {
+      id: "45",
+      name: "She-Hulk",
+      back: "https://i.imgur.com/NDvAqPS.png",
+      minis: ["https://i.imgur.com/gh2QUNl.png"],
+      desc: "She-Hulk is a melee fighter. Her ability to deal direct unconditional damages every turn combined with her incredibly high number of life points makes her very dangerous.",
+      ability: "At the start of her turn, she may discard a card to deal damage equal to its Boost value to a fighter in her zone.",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=muCiR09GZgQ"
+      }, {
+        name: "Baked Goods", url: "https://www.youtube.com/watch?v=4Nw6pdTepN4"
+      }],
+      set: ["Brains and Brawn", "https://boardgamegeek.com/boardgame/383467/unmatched-brains-and-brawn"],
+      deck: "https://unmatched.cards/umdb/decks/she_hulk",
+      lore: 'https://fr.wikipedia.org/wiki/She-Hulk_:_Avocate'
+    },
+    {
+      id: "46",
+      name: "Doctor Strange",
+      back: "https://i.imgur.com/EyxzU9n.png",
+      minis: ["https://i.imgur.com/aDXz0kU.png"],
+      desc: "Doctor Strange and his sidekick Wong are ranged fighters. His ability and heal cards allow him to use his life as a resource to draw cards. His cards are full of tricks like forcing his opponent to randomly change a played card or gamble on his top deck card values to deal more damages (or do none).",
+      ability: "After each combat, if he played a card, he may deal 1 damage to himself. If he does, he puts that card on the bottom of his deck and draws 1 card.",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=0gmfVRPKRic"
+      }, {
+        name: "Baked Goods", url: "https://www.youtube.com/watch?v=FxczZKOimG8"
+      }],
+      set: ["Brains and Brawn", "https://boardgamegeek.com/boardgame/383467/unmatched-brains-and-brawn"],
+      deck: "https://unmatched.cards/umdb/decks/doctor_strange",
+      lore: 'https://fr.wikipedia.org/wiki/Docteur_Strange'
     },
     {
       id: "37",
@@ -665,6 +767,28 @@
       set: ["Unmatched Adventures: Tales to Amaze", "https://boardgamegeek.com/boardgame/381297/unmatched-adventures-tales-amaze"],
       deck: "https://unmatched.cards/umdb/decks/annie-christmas",
       lore: 'https://en.wikipedia.org/wiki/Annie_Christmas'
+    },
+    {
+      id: "47",
+      name: "Oda Nobunaga",
+      back: "https://i.imgur.com/oLaba4Z.png",
+      minis: ["https://i.imgur.com/YjVg0Vu.png"],
+      desc: "Oda Nobunaga is a melee fighter who has 2 melee sidekicks with 6 life points. Oda's ability is already giving a bonus to friendly fighters in his zone is already good by itself and it becomes extremely impactful when playing with other friendly heroes (2 vs 2 or collaborative).",
+      ability: "Other friendly fighters in his zone add +1 to the value of their played combat cards.",
+      set: ["Sun's Origin", "https://boardgamegeek.com/boardgame/383469/unmatched-suns-origin"],
+      deck: "https://unmatched.cards/umdb/decks/oda-nobunaga",
+      lore: 'https://fr.wikipedia.org/wiki/Oda_Nobunaga'
+    },
+    {
+      id: "48",
+      name: "Tomoe Gozen",
+      back: "https://i.imgur.com/vmLK2ni.png",
+      minis: ["https://i.imgur.com/OakTR0y.png"],
+      desc: "Tomoe Gozen is a ranged fighter who paradoxically tries to be adjacent to her opponents to get the most out of her cards. And if flee too far, they get shot by her attack of opportunity special ability.",
+      ability: "When an opposing hero leaves her zone, deal 1 damage to that hero.",
+      set: ["Sun's Origin", "https://boardgamegeek.com/boardgame/383469/unmatched-suns-origin"],
+      deck: "https://unmatched.cards/umdb/decks/tomoe-gozen",
+      lore: 'https://fr.wikipedia.org/wiki/Tomoe_Gozen'
     },
   ]
 };

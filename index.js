@@ -34,7 +34,7 @@ class App extends DoDom {
     let chapter = intro.addDoDom('div');
     chapter.addDomText('This page lists all existing ');
     addHrefLink(chapter, 'Unmatched', 'https://boardgamegeek.com/boardgame/295564/unmatched-game-system', 'link');
-    chapter.addDomText(' fighters released up to the present day (March 2023 at the time of writing). If you notice some missing or erroneous information, please open an issue (or do a PR) on ');
+    chapter.addDomText(' fighters released up to the present day (January 2024 at the time of writing). If you notice some missing or erroneous information, please open an issue (or do a PR) on ');
     addHrefLink(chapter, 'Unmatched Roster\'s GitHub', 'https://github.com/tbrebant/unmatched-roster', 'link');
     chapter.addDomText('.');
     chapter = intro.addDoDom('div');
@@ -44,8 +44,8 @@ class App extends DoDom {
     chapter = intro.addDoDom('div');
     chapter.addDomText('If you want to know how good a fighter is and know more about his different matchups, you can check the Unmatched League\'s ');
     addHrefLink(chapter, 'fighter stats page', 'https://www.umleague.net/fighterstats', 'link');
-    chapter.addDomText(' or search for \"Unmatched tier list\" on ');
-    addHrefLink(chapter, 'YouTube', 'https://www.youtube.com/results?search_query=unmatched+tier+list+&sp=CAI%253D', 'link');
+    chapter.addDomText(' or search for \"Unmatched competitive tier list\" on ');
+    addHrefLink(chapter, 'YouTube', 'https://www.youtube.com/results?search_query=unmatched+competitive+tier+list+', 'link');
     chapter.addDomText('.');
     intro.addDoDom('div', { text: ' This project is unofficial and is not affiliated with any of Unmatched creators or publishers. Unmatched and the Unmatched logo are trademarks of Restoration Games, LLC. Art is (c) Restoration Games, LLC. Content is used with permission.' });
 
@@ -101,6 +101,19 @@ class App extends DoDom {
     }
     this.updateUrlFromFilters();
     this.removeFilterBtn.setVisibility(!noFilter);
+  }
+
+  //▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+  clearFilters () {
+    for (let i = 0; i < ROSTER.length; i++) {
+      let id = ROSTER[i].id;
+      this.fighters[id].setVisibility(true);
+    }
+    this.filters = {};
+    this.sortAlphabetically = false;
+    this.updateFilterWindowFromFilters();
+    this.updateSortOrder();
+    this.updateUrlFromFilters();
   }
 
   //▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
@@ -204,10 +217,22 @@ class App extends DoDom {
     // Separator
     this.filterWindowsContent.addDoDom('div', { class: 'horizontalSeparator' });
 
-    // sort order
+    // Sort order
     this.filterWindow.sortOrderCheckbox = this.addCheckbox(this.filterWindowsContent, 'Sort alphabetically', () => {
       this.sortAlphabetically = this.filterWindow.sortOrderCheckbox.dom.checked;
       this.updateSortOrder();
+    });
+
+    // Separator
+    this.filterWindowsContent.addDoDom('div', { class: 'horizontalSeparator' });
+
+    // Clear filters
+    this.filterWindowsContent.addDoDom('div', {
+      class: 'clearFilters',
+      text: 'Clear filters',
+      onClick: (e) => {
+        this.clearFilters();
+      }
     });
 
     // Close popup button
@@ -222,7 +247,7 @@ class App extends DoDom {
   }
 
   //▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-  addCheckbox (parent, text, update, ) {
+  addCheckbox (parent, text, update) {
     let checkboxWrapper = parent.addDoDom('div', { class: 'filterWrapper' });
     let checkbox = checkboxWrapper.addDoDom('input', { class: 'filterCheckbox'});
     checkbox.dom.type = 'checkbox';
