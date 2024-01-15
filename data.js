@@ -717,7 +717,7 @@
       name: "Nikola Tesla",
       back: "https://i.imgur.com/KVDmJwG.png",
       minis: ["https://i.imgur.com/doWQfAu.png"],
-      desc: "Nikola Tesla is a melee fighter juggling with the charges of his two coils to get additional bonuses and interesting effects from his cards.",
+      desc: "Nikola Tesla is a ranged fighter juggling with the charges of his two coils to get additional bonuses and interesting effects from his cards.",
       ability: "He has two coils and starts the game with one charged. At the end of his turn, he charges one coil. At the start of his turn, if both coils are charged, he deals 1 damage to each opposing fighter adjacent to him and he moves them up to 1 space.",
       guides: [{
         name: "To The Table Top!", url: "https://www.youtube.com/watch?v=L3K-MRw84to"
