@@ -834,5 +834,71 @@
       deck: "https://unmatched.cards/umdb/decks/titania",
       lore: 'https://en.wikipedia.org/wiki/Titania_(A_Midsummer_Night%27s_Dream)'
     },
+    {
+      id: "53",
+      name: "Geralt of Rivia",
+      back: "https://i.imgur.com/DueemMa.png",
+      minis: ["https://i.imgur.com/tFfX7xM.png"],
+      desc: "A melee-focused fighter supported by the ranged bard Dandelion sidekick, Geralt uses customizable gear (swords, armor, potions) to adapt to any matchup and gain situational advantages. His strength lies in tailor-making your deck during setup to counter your opponent’s strengths.",
+      ability: "At the start of the game, choose your gear. Select a POTION, ARMOR, and SWORD, and shuffle 2 copies of each into your deck.",
+      set: ["Steel and Silver", "https://boardgamegeek.com/boardgame/411860/unmatched-the-witcher-steel-and-silver"],
+      deck: "https://unmatched.cards/umdb/decks/geralt-of-rivia",
+      lore: 'https://en.wikipedia.org/wiki/Geralt_of_Rivia'
+    },
+    {
+      id: "54",
+      name: "Ciri",
+      back: "https://i.imgur.com/PeQ8vFd.png",
+      minis: ["https://i.imgur.com/sUKdUtu.png"],
+      desc: "A fast-moving melee combatant with her unicorn sidekick Ihuarraquax, Ciri harnesses raw power from “Source” cards—each played into her discard pile —and once seven are there, her attacks become unblockable. Players should build momentum early while dancing around the board, then strike decisively before the deck runs out. ",
+      ability: "Effects on Ciri's cards cannot be canceled.",
+      set: ["Steel and Silver", "https://boardgamegeek.com/boardgame/411860/unmatched-the-witcher-steel-and-silver"],
+      deck: "https://unmatched.cards/umdb/decks/ciri",
+      lore: 'https://en.wikipedia.org/wiki/List_of_characters_in_The_Witcher_series#Ciri_of_Cintra'
+    },
+    {
+      id: "55",
+      name: "Ancient Leshen",
+      back: "https://i.imgur.com/G94k9BJ.png",
+      minis: ["https://i.imgur.com/64gOdVI.png"],
+      desc: "A ranged monster with quick wolf sidekicks that harass opponents, the Leshen excels at positional play and board control, with abilities like “Heart of the Forest” that boost his presence and allow teleportation via crows. Maintain your wolves and leverage his ranged power to pressure foes across the battlefield.",
+      ability: "Add +3 to the value of the Leshen's attacks if it already attacked this turn.",
+      set: ["Steel and Silver", "https://boardgamegeek.com/boardgame/411860/unmatched-the-witcher-steel-and-silver"],
+      deck: "https://unmatched.cards/umdb/decks/ancient-leshen",
+      lore: 'https://en.wikipedia.org/wiki/Leshy'
+    },
+    {
+      id: "56",
+      name: "Eredin",
+      back: "https://i.imgur.com/m8uKYGB.png",
+      minis: ["https://i.imgur.com/xItTCOb.png"],
+      desc: "A melee-centered villain commanding the Wild Hunt, Eredin gains strength from the riders he summons and sacrifices, turning battlefield losses into bruising blows. His strategy thrives on sustaining and bolstering sidekicks to amplify his own assault, while teleporting across the board to strike decisively.",
+      ability: "While all of your Red Riders are defeated, Eredin is ENRAGED. <br/>If Eredin is ENRAGED, add +1 to the value of your combat cards, and your move value is 3.",
+      set: ["Realms Fall","https://boardgamegeek.com/boardgame/411861/unmatched-the-witcher-realms-fall"],
+      deck: "https://unmatched.cards/umdb/decks/eredin",
+      lore: 'https://en.wikipedia.org/wiki/List_of_characters_in_The_Witcher_series#Eredin_Br%C3%A9acc_Glas_(King_of_the_Wild_Hunt)'
+    },
+    {
+      id: "57",
+      name: "Philippa",
+      back: "https://i.imgur.com/s5JIbFF.png",
+      minis: ["https://i.imgur.com/68GjIck.png"],
+      desc: "This powerful ranaged sorceress wields explosive magical control with mixed-range attacks, never running out of cards thanks to clever deck recursion. Her gimmick revolves around relentless tempo—dumping spells and looping them to overwhelm opponents with an endless avalanche.",
+      ability: "At the end of your turn, you may draw until you have a hand of 4 cards.",
+      set: ["Realms Fall","https://boardgamegeek.com/boardgame/411861/unmatched-the-witcher-realms-fall"],
+      deck: "https://unmatched.cards/umdb/decks/philippa",
+      lore: 'https://en.wikipedia.org/wiki/List_of_characters_in_The_Witcher_series#Philippa_Eilhart'
+    },
+    {
+      id: "58",
+      name: "Yennefer & Triss",
+      back: "https://i.imgur.com/AU20rgA.png",
+      minis: ["https://i.imgur.com/OxZYFff.png"],
+      desc: "A ranged duo who embody a new Unmatched twist: you choose who leads and who supports each game, unlocking distinct special abilities that suit your matchup. Whether it's Yennefer’s raw arcane control or Triss’s agile, fiery assaults, their strength lies in fluid role-swapping to maintain battlefield supremacy.",
+      ability: "At the beginning of the game, choose Yennefer or Triss to be your hero. <br/>-Sorceress of Vengerberg<br/>IMMEDIATELY: If Yennefer is attacking, you may BOOST her attack. (This effect cannot be canceled.)<br/>-Merigold the Fearless<br/>After Triss plays a scheme, deal 2 damage to a fighter adjacent to Triss.",
+      set: ["Realms Fall","https://boardgamegeek.com/boardgame/411861/unmatched-the-witcher-realms-fall"],
+      deck: "https://unmatched.cards/umdb/decks/yennefer-triss",
+      lore: 'https://en.wikipedia.org/wiki/List_of_characters_in_The_Witcher_series#Triss_Merigold'
+    },
   ]
 };
