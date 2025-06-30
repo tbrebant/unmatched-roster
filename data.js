@@ -790,5 +790,49 @@
       deck: "https://unmatched.cards/umdb/decks/tomoe-gozen",
       lore: 'https://fr.wikipedia.org/wiki/Tomoe_Gozen'
     },
+    {
+      id: "49",
+      name: "William Shakespeare",
+      back: "https://i.imgur.com/1btghdw.png",
+      minis: ["https://i.imgur.com/DwqEuP4.png"],
+      desc: "A ranged/mixed attacker who gains power by composing iambic‑pentameter—play cards sequentially to build ten‑syllable lines and trigger dramatic effects. His gimmick rewards careful planning and line‑completion, offering powerful combos once you hit that poetic sweet spot.",
+      ability: "After you attack or defend, add your card to your line.<br/>When you line has 10 or more syllables, discard your line. If there are exactly 10 syllables, resolve the completion effect on the last card.",
+      set: ["Slings and Arrows", "https://boardgamegeek.com/boardgame/415945/unmatched-slings-and-arrows"],
+      deck: "https://unmatched.cards/umdb/decks/william-shakespeare",
+      lore: 'https://en.wikipedia.org/wiki/William_Shakespeare'
+    },
+    {
+      id: "50",
+      name: "The Wayward Sisters",
+      back: "https://i.imgur.com/C2M0ZfA.png",
+      minis: ["https://i.imgur.com/8hUkR4B.png"],
+      desc: "A trio of witches (no sidekicks) who mix cards into a shared cauldron instead of discarding them, triggering potent spells when the right ingredients accumulate. Their win condition relies on synergizing ingredient builds and timing big magic bursts for maximum board control.",
+      ability: "Your cards go into your cauldron instead of your discard pile. After you attack, you may cast one spell that you have the ingredients for. If you do, discard all the cards in your cauldron.",
+      set: ["Slings and Arrows", "https://boardgamegeek.com/boardgame/415945/unmatched-slings-and-arrows"],
+      deck: "https://unmatched.cards/umdb/decks/the-wayward-sisters",
+      lore: 'https://en.wikipedia.org/wiki/Three_Witches'
+    },
+    {
+      id: "51",
+      name: "Hamlet",
+      back: "https://i.imgur.com/CuG1Aw2.png",
+      minis: ["https://i.imgur.com/D7nOSmR.png"],
+      desc: "A melee-focused fighter supported by Rosencrantz & Guildenstern, who toggles between “To Be” (draw more cards when moving) and “Not To Be” (deal self‑damage to boost attack power). His core strategy is to balance life and cards—bait hits to empower stronger counters.",
+      ability: "At the start of your turn, choose TO BE or NOT TO BE. If you choose NOT TO BE, deal 2 damage to one of your fighters.<br/>-TO BE: When you maneuver, draw 1 additional card.<br/>-NOT TO BE: Add +2 to the value of Hamlet's attacks.",
+      set: ["Slings and Arrows", "https://boardgamegeek.com/boardgame/415945/unmatched-slings-and-arrows"],
+      deck: "https://unmatched.cards/umdb/decks/hamlet",
+      lore: 'https://en.wikipedia.org/wiki/Hamlet'
+    },
+    {
+      id: "52",
+      name: "Titania",
+      back: "https://i.imgur.com/VUEEeV8.png",
+      minis: ["https://i.imgur.com/b0SGNYO.png"],
+      desc: "Titania attacks as a ranged fighter and empowers her melee sidekick Oberon using Glamour cards that level up their strikes, but these resources are finite and must be spent judiciously. Best used by weaving fairies around the battlefield and timing Glamour plays to maximize each attack.",
+      ability: "If you do not have a face-up glamour at the start of your turn, flip the top card of your glamour deck face-up. Its effect is ongoing while it remains face-up.",
+      set: ["Slings and Arrows", "https://boardgamegeek.com/boardgame/415945/unmatched-slings-and-arrows"],
+      deck: "https://unmatched.cards/umdb/decks/titania",
+      lore: 'https://en.wikipedia.org/wiki/Titania_(A_Midsummer_Night%27s_Dream)'
+    },
   ]
 };
