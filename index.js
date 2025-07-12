@@ -47,7 +47,7 @@ class App extends DoDom {
     chapter.addDomText(' or search for \"Unmatched competitive tier list\" on ');
     addHrefLink(chapter, 'YouTube', 'https://www.youtube.com/results?search_query=unmatched+competitive+tier+list+', 'link');
     chapter.addDomText('.');
-    intro.addDoDom('div', { text: ' This project is unofficial and is not affiliated with any of Unmatched creators or publishers. Unmatched and the Unmatched logo are trademarks of Restoration Games, LLC. Art is (c) Restoration Games, LLC. Content is used with permission.' });
+    intro.addDoDom('div', { text: 'This project is unofficial and is not affiliated with any of Unmatched creators or publishers. Unmatched and the Unmatched logo are trademarks of Restoration Games, LLC. Art is (c) Restoration Games, LLC. Content is used with permission.', class: 'disclaimer' });
 
     // Disclaimer when page is currently filtered + button to remove the filter
     this.removeFilterBtn = this.addDoDom('div', {
@@ -73,10 +73,13 @@ class App extends DoDom {
     }
 
     // Footer
-    this.addDoDom('div', {
-      class: 'footer',
-      text: 'Unmatched and the Unmatched logo are trademarks of Restoration Games, LLC. Art is (c) Restoration Games, LLC. Content is used with permission.'
-    });
+    let footer = this.addDoDom('div', { class: 'footer' });
+    footer.addDomText('Project created by ');
+    addHrefLink(footer, 'docteeboh', 'https://docteeboh.net', 'link');
+    footer.addDomText(' with the contribution of ');
+    addHrefLink(footer, 'zypheron', 'https://github.com/zypherion', 'link');
+    footer.addDomText('.');
+
 
     // Retrieve url filters ans update them
     this.setFiltersFromUrl();
