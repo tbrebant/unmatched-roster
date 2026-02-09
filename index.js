@@ -1,5 +1,5 @@
-import DATA from './data.js?v=1';
-import DoDom from './DoDom.js?v=1';
+import DATA from './data.js?v=2';
+import DoDom from './DoDom.js?v=2';
 
 const ROSTER = DATA.roster;
 
@@ -384,7 +384,7 @@ class FighterPanel extends DoDom {
     // Deck details
     if (fighterData.deck) {
       let deckDetails = additionalContent.addDoDom('div', { text: 'Deck details: ', class: 'fighterDeck' });
-      addHrefLink(deckDetails, 'Unmatched Database', fighterData.deck, 'guideLink');
+      addHrefLink(deckDetails, fighterData.deck?.includes('the-unmatched.club') ? 'The Unmatched Club' : 'Unmatched Database', fighterData.deck, 'guideLink');
     }
 
     // Lore
