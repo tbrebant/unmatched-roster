@@ -1,4 +1,4 @@
-# Guide to add a new fighter to *Unmatched Roster*
+# Guide to add a new fighter to *[Unmatched Roster](https://tbrebant.github.io/unmatched-roster/)*
 
 This guide is written for people who don't know anything about GitHub and development. If you have any question, you can contact me via [GitHub issues](https://github.com/tbrebant/unmatched-roster/issues).
 
@@ -122,4 +122,5 @@ I generally need between two and seven days to take care of a PR. You can get in
 Also don't forget to give me a name and a url if you want to be added to the list of the contributors at the bottom of the page.
 
 That's all! Thank you for contributing to *Unmatched Roster*!
+
 
