@@ -900,5 +900,17 @@
       deck: "https://unmatched.cards/umdb/decks/yennefer-triss",
       lore: 'https://en.wikipedia.org/wiki/List_of_characters_in_The_Witcher_series#Triss_Merigold'
     },
+    {
+      id: "59",
+      name: "Muhammad Ali",
+      back: "https://i.imgur.com/Q42vFtf.png",
+      minis: ["https://i.imgur.com/79mFBwl.png"],
+      desc: "Ali is a melee fighter able to switch between two different stances, one giving him some attack distance and the other stronger punches. He's often able to read opponent's mind by looking at his cards.",
+      ability: "Ali has two stances: one allows him to attack 2 spaces away and empowers some of his cards, the other one gives him +2 to all of his attacks.",
+      set: ["Lee vs Ali","https://boardgamegeek.com/boardgame/428308/unmatched-lee-vs-ali"],
+      deck: "https://www.the-unmatched.club/heroes/muhammad-ali",
+      lore: "https://en.wikipedia.org/wiki/Muhammad_Ali"
+    },
   ]
 };
+
