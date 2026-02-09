@@ -12,11 +12,11 @@ This guide is written for people who don't know anything about GitHub and develo
 
 In the top-right corner, click **Fork**:
 
-<img src="./guide/001.jpg"/>
+<kbd><img width="700" src="./guide/001.jpg"/></kbd><br/>
 
 Confirm by clicking **Create Fork**:
 
-<img src="./guide/002.jpg"/>
+<kbd><img width="700" src="./guide/002.jpg"/></kbd><br/>
 
 Wait a bit and you will land on your own copy of the project.
 
@@ -33,7 +33,7 @@ In order to add a new fighter, you will need the following data. Let's use the M
 **d) Name of the Unmatched set he is in** (*Lee vs Ali*).  
 **e) boardgamegeek link of the set** (*`https://boardgamegeek.com/boardgame/428308/unmatched-lee-vs-ali`*)  
 **f) His deck's url in the [Unmatched Database (UmDb)](https://unmatched.cards/umdb/decks/) or in the [Unmatched Club](https://www.the-unmatched.club/heroes)** (*`https://www.the-unmatched.club/heroes/muhammad-ali`*)  
-**g) An url leading to some lore information** (*`https://en.wikipedia.org/wiki/Muhammad_Ali`*).  
+**g) A url leading to some lore information** (*`https://en.wikipedia.org/wiki/Muhammad_Ali`*).  
 **h) An image of his card background.** Upload it to a website such as imgur. (*`https://i.imgur.com/Q42vFtf.png`*)    
 **i) One image for each miniature this fighter has (usually one but sometimes multiple).** Upload it/them to a website such as imgur. (*`https://i.imgur.com/79mFBwl.png`*)
 
@@ -43,15 +43,15 @@ Go to the original repo: https://github.com/tbrebant/unmatched-roster.
 
 Click `data.js`:
 
-<img src="./guide/003.jpg"/>
+<kbd><img width="700" src="./guide/003.jpg"/></kbd><br/>
 
 Edit the file by clicking the ✏️ pencil icon:
 
-<img src="./guide/004.jpg"/>
+<kbd><img width="700" src="./guide/004.jpg"/></kbd><br/>
 
 Go to the bottom of the file, and copy/paste the following code as shown on the next screenshot:
 
-```json
+```js
     {
       id: "",
       name: "",
@@ -65,7 +65,7 @@ Go to the bottom of the file, and copy/paste the following code as shown on the 
     },
 ```
 
-<img src="./guide/005.jpg"/>
+<kbd><img width="700" src="./guide/005.jpg"/></kbd><br/>
 
 And start adding your information. Be careful to the following things:
 
@@ -78,7 +78,7 @@ And start adding your information. Be careful to the following things:
 
 And here is the completed Ali block:
 
-```json
+```js
 {
   id: "59",
   name: "Muhammad Ali",
@@ -94,23 +94,23 @@ And here is the completed Ali block:
 
 Click the "Commit changes..." button:
 
-<img src="./guide/006.jpg"/>
+<kbd><img width="700" src="./guide/006.jpg"/></kbd><br/>
 
 Describe the changes you did (1) and click "Propose changes":
 
-<img src="./guide/007.jpg"/>
+<kbd><img width="700" src="./guide/007.jpg"/></kbd><br/>
 
 Double check that "base repository" starts with `tbrebant/`. Click on "Create pull request":
 
-<img src="./guide/008.jpg"/>
+<kbd><img width="700" src="./guide/008.jpg"/></kbd><br/>
 
-Click on "Create pull request" (you can also add some comments in the description above, for instance a name/link if you would like me to add you to the contributors list):
+Click on "Create pull request" (you can also add some comments in the description, for instance a name/link if you would like me to add you to the contributors list):
 
-<img src="./guide/009.jpg"/>
+<kbd><img width="700" src="./guide/009.jpg"/></kbd><br/>
 
 And you are finally done!
 
-<img src="./guide/010.jpg"/>
+<kbd><img width="700" src="./guide/010.jpg"/></kbd><br/>
 
 
 # C) What happens next?
@@ -119,6 +119,7 @@ I will have a look at your contribution, fix small things if needed and merge yo
 
 I generally need between two and seven days to take care of a PR. You can get in touch with me through [GitHub issues](https://github.com/tbrebant/unmatched-roster/issues), I usually answer quickly.
 
-Also don't forget to give me a name and an url if you want to be added to the list of the contributors at the bottom of the page.
+Also don't forget to give me a name and a url if you want to be added to the list of the contributors at the bottom of the page.
 
 That's all! Thank you for contributing to *Unmatched Roster*!
+
