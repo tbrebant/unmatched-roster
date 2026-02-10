@@ -4,18 +4,15 @@ This repository hosts the source code of [Unmatched Roster](https://tbrebant.git
 
 :link: **[https://tbrebant.github.io/unmatched-roster](https://tbrebant.github.io/unmatched-roster)**
 
-## Disclaimer
+## Disclaimer and Copyright notice
 
-This project is unofficial and is not affiliated with any of Unmatched creators or publishers. Unmatched and the Unmatched logo are trademarks of Restoration Games, LLC. Art is (c) Restoration Games, LLC. Content is used with permission.
+This project is unofficial and is not affiliated with any of Unmatched creators or publishers. Unmatched and the Unmatched logo are trademarks of Restoration Games, LLC.  
 
-No art or copyrighted element is or will be hosted in this repository. They are used with permission in the context of this project.
+Code is MIT licensed.
 
-## Contribute
+Assets are © Restoration Games, used with permission, and may **NOT** be reused, redistributed, modified, or included in other
+projects without prior written permission from Restoration Games. See [assets/NOTICE.md](assets/NOTICE.md).
 
-### If you don't know anything about GitHub and development
+## Contribute (add new fighters, fix issues...)
 
-Here is a simple and complete guide: **[CONTRIBUTING](./CONTRIBUTING.md)**.
-
-### If you do
-
-If you wish to contribute (add new fighters, improve some descriptions, fix mistakes...), feel free to open an issue or even a PR. All data are located in [data.js](./data.js) which is pretty easy to read and understand.
+See **[CONTRIBUTING](./CONTRIBUTING.md)**.
