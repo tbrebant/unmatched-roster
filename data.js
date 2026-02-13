@@ -77,7 +77,7 @@ export default {
       id: "8",
       name: "Bruce Lee",
       back: "assets/backs/008.png",
-      minis: ["assets/minis/008.png"],
+      minis: ["assets/minis/008a.png", "assets/minis/008b.png"],
       desc: "Bruce Lee is a solo melee hero, able to attack many times in a single round with the help of his \"Gain 1 action\" cards.",
       ability: "At the end of his turn, he may move 1 space.",
       guides: [{
