@@ -34,7 +34,7 @@ class App extends DoDom {
     let chapter = intro.addDoDom('div');
     chapter.addDomText('This page lists all existing ');
     addHrefLink(chapter, 'Unmatched', 'https://boardgamegeek.com/boardgame/295564/unmatched-game-system', 'link');
-    chapter.addDomText(' fighters released up to the present day (January 2025 at the time of writing). If you notice some missing or erroneous information, please read this: ');
+    chapter.addDomText(' fighters released up to the present day (February 2026 at the time of writing). If you notice some missing or erroneous information, please read this: ');
     addHrefLink(chapter, 'contributing', 'https://github.com/tbrebant/unmatched-roster/blob/main/CONTRIBUTING.md', 'link');
     chapter.addDomText('.');
     chapter = intro.addDoDom('div');
