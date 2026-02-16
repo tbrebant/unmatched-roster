@@ -938,10 +938,10 @@ export default {
       lore: 'https://en.wikipedia.org/wiki/List_of_characters_in_The_Witcher_series#Triss_Merigold'
     },
     {
-      id: "59",
+      id: "60",
       name: "Chupacabra",
-      back: "assets/backs/059.png",
-      minis: ["assets/minis/059.png"],
+      back: "assets/backs/060.png",
+      minis: ["assets/minis/060.png"],
       desc: "",
       ability: "After you attack, you may draw a card.",
       guides: [{
@@ -955,10 +955,10 @@ export default {
       lore: "https://en.wikipedia.org/wiki/Chupacabra"
     },
     {
-      id: "60",
+      id: "61",
       name: "Blackbeard",
-      back: "assets/backs/060.png",
-      minis: ["assets/minis/060.png"],
+      back: "assets/backs/061.png",
+      minis: ["assets/minis/061.png"],
       desc: "",
       ability: "Start the game with 1 doubloon in the treasury, you have the other 2. <br/>- At the start of your turn, you may pay 1 doubloon to gain 1 action. <br/>- When Blackbeard takes combat damage, pay 1 doubloon.",
       guides: [{
@@ -971,10 +971,10 @@ export default {
       lore: "https://en.wikipedia.org/wiki/Blackbeard"
     },
     {
-      id: "61",
+      id: "62",
       name: "Pandora",
-      back: "assets/backs/061.png",
-      minis: ["assets/minis/061.png"],
+      back: "assets/backs/062.png",
+      minis: ["assets/minis/062.png"],
       desc: "",
       ability: "Do not start with any Kakodamons on the board. At the start of your turn, open Pandora's box. <br/>Pandora's Box is a deck of seven cards called MISERIES. When you open Pandora's Box, reveal the top card and resolve its effect if any.) You may keep revealing and resolving additional cards, one at a time, until you choose to stop. If there are three or more total feathers on revealed cards, you must stop revealing, then Pandora takes 1 damage for each revealed MISERY. At the end of your turn, shuffle all revealed MISERIES back into Pandora's Box.",
       guides: [{
@@ -987,10 +987,10 @@ export default {
       lore: "https://en.wikipedia.org/wiki/Pandora"
     },
     {
-      id: "62",
+      id: "63",
       name: "Loki",
-      back: "assets/backs/062.png",
-      minis: ["assets/minis/062.png"],
+      back: "assets/backs/063.png",
+      minis: ["assets/minis/063.png"],
       desc: "",
       ability: "After you play a TRICK, put that card into your opponent's hand instead of your discord pile. If an opponent discards a TRICK from their hand, return that card to your hand or the top of your deck. Add +1 to your move value for each TRICK in your opponents hands.",
       guides: [{
@@ -1003,10 +1003,10 @@ export default {
       lore: "https://en.wikipedia.org/wiki/Loki"
     },
     {
-      id: "63",
+      id: "59",
       name: "Muhammad Ali",
-      back: "assets/backs/063.png",
-      minis: ["assets/minis/063.png"],
+      back: "assets/backs/059.png",
+      minis: ["assets/minis/059.png"],
       desc: "Ali is a melee fighter able to switch between two different stances, one giving him some attack distance and the other stronger punches. He's often able to read opponent's mind by looking at his cards.",
       ability: "Ali has two stances: one allows him to attack 2 spaces away and empowers some of his cards, the other one gives him +2 to all of his attacks.",
       guides: [{
