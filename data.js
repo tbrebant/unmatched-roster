@@ -77,7 +77,7 @@ export default {
       id: "8",
       name: "Bruce Lee",
       back: "assets/backs/008.png",
-      minis: ["assets/minis/008.png"],
+      minis: ["assets/minis/008a.png", "assets/minis/008b.png"],
       desc: "Bruce Lee is a solo melee hero, able to attack many times in a single round with the help of his \"Gain 1 action\" cards.",
       ability: "At the end of his turn, he may move 1 space.",
       guides: [{
@@ -776,6 +776,9 @@ export default {
       minis: ["assets/minis/047.png"],
       desc: "Oda Nobunaga is a melee fighter who has 2 melee sidekicks with 6 life points. Oda's ability is already giving a bonus to friendly fighters in his zone is already good by itself and it becomes extremely impactful when playing with other friendly heroes (2 vs 2 or collaborative).",
       ability: "Other friendly fighters in his zone add +1 to the value of their played combat cards.",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=MssOtIW4THA"
+      }],
       set: ["Sun's Origin", "https://boardgamegeek.com/boardgame/383469/unmatched-suns-origin"],
       deck: "https://unmatched.cards/umdb/decks/oda-nobunaga",
       lore: 'https://fr.wikipedia.org/wiki/Oda_Nobunaga'
@@ -787,6 +790,9 @@ export default {
       minis: ["assets/minis/048.png"],
       desc: "Tomoe Gozen is a ranged fighter who paradoxically tries to be adjacent to her opponents to get the most out of her cards. And if flee too far, they get shot by her attack of opportunity special ability.",
       ability: "When an opposing hero leaves her zone, deal 1 damage to that hero.",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=C0FJXyHQ2yE"
+      }],
       set: ["Sun's Origin", "https://boardgamegeek.com/boardgame/383469/unmatched-suns-origin"],
       deck: "https://unmatched.cards/umdb/decks/tomoe-gozen",
       lore: 'https://fr.wikipedia.org/wiki/Tomoe_Gozen'
@@ -798,6 +804,9 @@ export default {
       minis: ["assets/minis/049.png"],
       desc: "A ranged/mixed attacker who gains power by composing iambic‑pentameter—play cards sequentially to build ten‑syllable lines and trigger dramatic effects. His gimmick rewards careful planning and line‑completion, offering powerful combos once you hit that poetic sweet spot.",
       ability: "After you attack or defend, add your card to your line.<br/>When you line has 10 or more syllables, discard your line. If there are exactly 10 syllables, resolve the completion effect on the last card.",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=QosmjsUDPnA"
+      }],
       set: ["Slings and Arrows", "https://boardgamegeek.com/boardgame/415945/unmatched-slings-and-arrows"],
       deck: "https://unmatched.cards/umdb/decks/william-shakespeare",
       lore: 'https://en.wikipedia.org/wiki/William_Shakespeare'
@@ -809,6 +818,9 @@ export default {
       minis: ["assets/minis/050a.png", "assets/minis/050b.png", "assets/minis/050c.png"],
       desc: "A trio of witches (no sidekicks) who mix cards into a shared cauldron instead of discarding them, triggering potent spells when the right ingredients accumulate. Their win condition relies on synergizing ingredient builds and timing big magic bursts for maximum board control.",
       ability: "Your cards go into your cauldron instead of your discard pile. After you attack, you may cast one spell that you have the ingredients for. If you do, discard all the cards in your cauldron.",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=D2R-suPXFL4"
+      }],
       set: ["Slings and Arrows", "https://boardgamegeek.com/boardgame/415945/unmatched-slings-and-arrows"],
       deck: "https://unmatched.cards/umdb/decks/the-wayward-sisters",
       lore: 'https://en.wikipedia.org/wiki/Three_Witches'
@@ -820,6 +832,9 @@ export default {
       minis: ["assets/minis/051.png"],
       desc: "A melee-focused fighter supported by Rosencrantz & Guildenstern, who toggles between “To Be” (draw more cards when moving) and “Not To Be” (deal self‑damage to boost attack power). His core strategy is to balance life and cards—bait hits to empower stronger counters.",
       ability: "At the start of your turn, choose TO BE or NOT TO BE. If you choose NOT TO BE, deal 2 damage to one of your fighters.<br/>-TO BE: When you maneuver, draw 1 additional card.<br/>-NOT TO BE: Add +2 to the value of Hamlet's attacks.",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=1Igd5MYvkAU"
+      }],
       set: ["Slings and Arrows", "https://boardgamegeek.com/boardgame/415945/unmatched-slings-and-arrows"],
       deck: "https://unmatched.cards/umdb/decks/hamlet",
       lore: 'https://en.wikipedia.org/wiki/Hamlet'
@@ -831,6 +846,9 @@ export default {
       minis: ["assets/minis/052.png"],
       desc: "Titania attacks as a ranged fighter and empowers her melee sidekick Oberon using Glamour cards that level up their strikes, but these resources are finite and must be spent judiciously. Best used by weaving fairies around the battlefield and timing Glamour plays to maximize each attack.",
       ability: "If you do not have a face-up glamour at the start of your turn, flip the top card of your glamour deck face-up. Its effect is ongoing while it remains face-up.",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=adALr5SJjLc"
+      }],
       set: ["Slings and Arrows", "https://boardgamegeek.com/boardgame/415945/unmatched-slings-and-arrows"],
       deck: "https://unmatched.cards/umdb/decks/titania",
       lore: 'https://en.wikipedia.org/wiki/Titania_(A_Midsummer_Night%27s_Dream)'
@@ -839,9 +857,12 @@ export default {
       id: "53",
       name: "Geralt of Rivia",
       back: "assets/backs/053.png",
-      minis: ["assets/minis/053.png"],
+      minis: ["assets/minis/053a.png", "assets/minis/053b.png"],
       desc: "A melee-focused fighter supported by the ranged bard Dandelion sidekick, Geralt uses customizable gear (swords, armor, potions) to adapt to any matchup and gain situational advantages. His strength lies in tailor-making your deck during setup to counter your opponent’s strengths.",
       ability: "At the start of the game, choose your gear. Select a POTION, ARMOR, and SWORD, and shuffle 2 copies of each into your deck.",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=WVVyPrw-XeE"
+      }],
       set: ["Steel and Silver", "https://boardgamegeek.com/boardgame/411860/unmatched-the-witcher-steel-and-silver"],
       deck: "https://unmatched.cards/umdb/decks/geralt-of-rivia",
       lore: 'https://en.wikipedia.org/wiki/Geralt_of_Rivia'
@@ -853,6 +874,9 @@ export default {
       minis: ["assets/minis/054.png"],
       desc: "A fast-moving melee combatant with her unicorn sidekick Ihuarraquax, Ciri harnesses raw power from “Source” cards—each played into her discard pile —and once seven are there, her attacks become unblockable. Players should build momentum early while dancing around the board, then strike decisively before the deck runs out. ",
       ability: "Effects on Ciri's cards cannot be canceled.",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=_0qphBhbAeI"
+      }],
       set: ["Steel and Silver", "https://boardgamegeek.com/boardgame/411860/unmatched-the-witcher-steel-and-silver"],
       deck: "https://unmatched.cards/umdb/decks/ciri",
       lore: 'https://en.wikipedia.org/wiki/List_of_characters_in_The_Witcher_series#Ciri_of_Cintra'
@@ -864,6 +888,9 @@ export default {
       minis: ["assets/minis/055.png"],
       desc: "A ranged monster with quick wolf sidekicks that harass opponents, the Leshen excels at positional play and board control, with abilities like “Heart of the Forest” that boost his presence and allow teleportation via crows. Maintain your wolves and leverage his ranged power to pressure foes across the battlefield.",
       ability: "Add +3 to the value of the Leshen's attacks if it already attacked this turn.",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=_CzsjNMdhQk"
+      }],
       set: ["Steel and Silver", "https://boardgamegeek.com/boardgame/411860/unmatched-the-witcher-steel-and-silver"],
       deck: "https://unmatched.cards/umdb/decks/ancient-leshen",
       lore: 'https://en.wikipedia.org/wiki/Leshy'
@@ -875,6 +902,9 @@ export default {
       minis: ["assets/minis/056.png"],
       desc: "A melee-centered villain commanding the Wild Hunt, Eredin gains strength from the riders he summons and sacrifices, turning battlefield losses into bruising blows. His strategy thrives on sustaining and bolstering sidekicks to amplify his own assault, while teleporting across the board to strike decisively.",
       ability: "While all of your Red Riders are defeated, Eredin is ENRAGED. <br/>If Eredin is ENRAGED, add +1 to the value of your combat cards, and your move value is 3.",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=3is-DUhamNg"
+      }],
       set: ["Realms Fall","https://boardgamegeek.com/boardgame/411861/unmatched-the-witcher-realms-fall"],
       deck: "https://unmatched.cards/umdb/decks/eredin",
       lore: 'https://en.wikipedia.org/wiki/List_of_characters_in_The_Witcher_series#Eredin_Br%C3%A9acc_Glas_(King_of_the_Wild_Hunt)'
@@ -886,6 +916,9 @@ export default {
       minis: ["assets/minis/057.png"],
       desc: "This powerful ranaged sorceress wields explosive magical control with mixed-range attacks, never running out of cards thanks to clever deck recursion. Her gimmick revolves around relentless tempo—dumping spells and looping them to overwhelm opponents with an endless avalanche.",
       ability: "At the end of your turn, you may draw until you have a hand of 4 cards.",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=f5sD4kGI0Ls"
+      }],
       set: ["Realms Fall","https://boardgamegeek.com/boardgame/411861/unmatched-the-witcher-realms-fall"],
       deck: "https://unmatched.cards/umdb/decks/philippa",
       lore: 'https://en.wikipedia.org/wiki/List_of_characters_in_The_Witcher_series#Philippa_Eilhart'
@@ -897,9 +930,77 @@ export default {
       minis: ["assets/minis/058a.png", "assets/minis/058b.png"],
       desc: "A ranged duo who embody a new Unmatched twist: you choose who leads and who supports each game, unlocking distinct special abilities that suit your matchup. Whether it's Yennefer’s raw arcane control or Triss’s agile, fiery assaults, their strength lies in fluid role-swapping to maintain battlefield supremacy.",
       ability: "At the beginning of the game, choose Yennefer or Triss to be your hero. <br/>-Sorceress of Vengerberg<br/>IMMEDIATELY: If Yennefer is attacking, you may BOOST her attack. (This effect cannot be canceled.)<br/>-Merigold the Fearless<br/>After Triss plays a scheme, deal 2 damage to a fighter adjacent to Triss.",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=wXQtUyryXr0"
+      }],
       set: ["Realms Fall","https://boardgamegeek.com/boardgame/411861/unmatched-the-witcher-realms-fall"],
       deck: "https://unmatched.cards/umdb/decks/yennefer-triss",
       lore: 'https://en.wikipedia.org/wiki/List_of_characters_in_The_Witcher_series#Triss_Merigold'
+    },
+    {
+      id: "60",
+      name: "Chupacabra",
+      back: "assets/backs/060.png",
+      minis: ["assets/minis/060.png"],
+      desc: "",
+      ability: "After you attack, you may draw a card.",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=zVhfEmAmdnE"
+      }, {
+        name: "Taytertots", url: "https://www.youtube.com/watch?v=BZaNvq6CxD4"
+      }
+      ],
+      set: ["Battle of Legends, Volume Three","https://boardgamegeek.com/boardgame/439765/unmatched-battle-of-legends-volume-three"],
+      deck: "https://unmatched.cards/umdb/decks/chupacabra",
+      lore: "https://en.wikipedia.org/wiki/Chupacabra"
+    },
+    {
+      id: "61",
+      name: "Blackbeard",
+      back: "assets/backs/061.png",
+      minis: ["assets/minis/061.png"],
+      desc: "",
+      ability: "Start the game with 1 doubloon in the treasury, you have the other 2. <br/>- At the start of your turn, you may pay 1 doubloon to gain 1 action. <br/>- When Blackbeard takes combat damage, pay 1 doubloon.",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=q_t1NjQtAog"
+      }, {
+        name: "Taytertots", url: "https://www.youtube.com/watch?v=ta8RRGFj0jI"
+      }],
+      set: ["Battle of Legends, Volume Three","https://boardgamegeek.com/boardgame/439765/unmatched-battle-of-legends-volume-three"],
+      deck: "https://unmatched.cards/umdb/decks/blackbeard",
+      lore: "https://en.wikipedia.org/wiki/Blackbeard"
+    },
+    {
+      id: "62",
+      name: "Pandora",
+      back: "assets/backs/062.png",
+      minis: ["assets/minis/062.png"],
+      desc: "",
+      ability: "Do not start with any Kakodamons on the board. At the start of your turn, open Pandora's box. <br/>Pandora's Box is a deck of seven cards called MISERIES. When you open Pandora's Box, reveal the top card and resolve its effect if any.) You may keep revealing and resolving additional cards, one at a time, until you choose to stop. If there are three or more total feathers on revealed cards, you must stop revealing, then Pandora takes 1 damage for each revealed MISERY. At the end of your turn, shuffle all revealed MISERIES back into Pandora's Box.",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=Si9wSXOe0mw"
+      }, {
+        name: "Taytertots", url: "https://www.youtube.com/watch?v=AHfkFbLxFhQ"
+      }],
+      set: ["Battle of Legends, Volume Three","https://boardgamegeek.com/boardgame/439765/unmatched-battle-of-legends-volume-three"],
+      deck: "https://unmatched.cards/umdb/decks/pandora",
+      lore: "https://en.wikipedia.org/wiki/Pandora"
+    },
+    {
+      id: "63",
+      name: "Loki",
+      back: "assets/backs/063.png",
+      minis: ["assets/minis/063.png"],
+      desc: "",
+      ability: "After you play a TRICK, put that card into your opponent's hand instead of your discord pile. If an opponent discards a TRICK from their hand, return that card to your hand or the top of your deck. Add +1 to your move value for each TRICK in your opponents hands.",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=Dau1USHCAr4"
+      }, {
+        name: "Taytertots", url: "https://www.youtube.com/watch?v=nVwG9oZvqSo"
+      }],
+      set: ["Battle of Legends, Volume Three","https://boardgamegeek.com/boardgame/439765/unmatched-battle-of-legends-volume-three"],
+      deck: "https://unmatched.cards/umdb/decks/loki",
+      lore: "https://en.wikipedia.org/wiki/Loki"
     },
     {
       id: "59",
@@ -916,6 +1017,98 @@ export default {
       set: ["Lee vs Ali","https://boardgamegeek.com/boardgame/428308/unmatched-lee-vs-ali"],
       deck: "https://www.the-unmatched.club/heroes/muhammad-ali",
       lore: "https://en.wikipedia.org/wiki/Muhammad_Ali"
+    },
+    {
+      id: "64",
+      name: "Raphael",
+      back: "assets/backs/064.png",
+      minis: ["assets/minis/064.png"],
+      desc: "",
+      ability: "On each of your turns, the first time you lose combat, gain 1 action.",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=IUsvOVTWMaA"
+      }, {
+        name: "Taytertots", url: "https://www.youtube.com/watch?v=hNLOPvSJAIQ"
+      }],
+      set: ["Unmatched Adventures: Teenage Mutant Ninja Turtles","https://boardgamegeek.com/boardgame/425276/unmatched-adventures-teenage-mutant-ninja-turtles"],
+      deck: "https://www.the-unmatched.club/heroes/raphael",
+      lore: "https://en.wikipedia.org/wiki/Raphael_(Teenage_Mutant_Ninja_Turtles)"
+    },
+    {
+      id: "65",
+      name: "Donatello",
+      back: "assets/backs/065.png",
+      minis: ["assets/minis/065.png"],
+      desc: "",
+      ability: "When you maneuver, you may draw 2 cards instead of 1. If you do, put a card in your hand on the bottom of your deck. After you play an invention, tuck it under this card. For the rest of the game, its invention bonus aplies.",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=Hg-PGA0_00o"
+      }, {
+        name: "Taytertots", url: "https://www.youtube.com/watch?v=68lXV-XjUPM"
+      }],
+      set: ["Unmatched Adventures: Teenage Mutant Ninja Turtles","https://boardgamegeek.com/boardgame/425276/unmatched-adventures-teenage-mutant-ninja-turtles"],
+      deck: "https://www.the-unmatched.club/heroes/donatello",
+      lore: "https://en.wikipedia.org/wiki/Donatello_(Teenage_Mutant_Ninja_Turtles)"
+    },
+    {
+      id: "66",
+      name: "Michelangelo",
+      back: "assets/backs/066.png",
+      minis: ["assets/minis/066.png"],
+      desc: "",
+      ability: "After you attack or scheme, draw 1 card. Your starting and maximum hand size is 3.",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=qz_IjUhDkIs"
+      }, {
+        name: "Taytertots", url: "https://www.youtube.com/watch?v=4OvqCLSRhcw"
+      }],
+      set: ["Unmatched Adventures: Teenage Mutant Ninja Turtles","https://boardgamegeek.com/boardgame/425276/unmatched-adventures-teenage-mutant-ninja-turtles"],
+      deck: "https://www.the-unmatched.club/heroes/michelangelo",
+      lore: "https://en.wikipedia.org/wiki/Michelangelo_(Teenage_Mutant_Ninja_Turtles)"
+    },
+    {
+      id: "67",
+      name: "Leonardo",
+      back: "assets/backs/067.png",
+      minis: ["assets/minis/067.png"],
+      desc: "",
+      ability: "At the start of your turn, move any fighter up to 1 space.",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=hR9D-w5OjlA"
+      }, {
+        name: "Taytertots", url: "https://www.youtube.com/watch?v=2CZ9xjRcsGQ"
+      }],
+      set: ["Unmatched Adventures: Teenage Mutant Ninja Turtles","https://boardgamegeek.com/boardgame/425276/unmatched-adventures-teenage-mutant-ninja-turtles"],
+      deck: "https://www.the-unmatched.club/heroes/leonardo",
+      lore: "https://en.wikipedia.org/wiki/Leonardo_(Teenage_Mutant_Ninja_Turtles)"
+    },
+    {
+      id: "68",
+      name: "Shredder",
+      back: "assets/backs/068.png",
+      minis: ["assets/minis/068a.png", "assets/minis/068b.png"],
+      desc: "",
+      ability: "At the start of your turn, deploy a Foot soldier to a path adjacent to a friendly fighter. <br/>You may attack opposing fighters adjacent to Foot soldiers.<br />If an opponent boosts their maneuver, they may remove any Foot soldier their hero moves through.",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=74Bwr_GsPg0"
+      }],
+      set: ["Unmatched Adventures: Teenage Mutant Ninja Turtles - Shredder and Krang","https://boardgamegeek.com/boardgameexpansion/429397/unmatched-adventures-teenage-mutant-ninja-turtles"],
+      deck: "https://www.the-unmatched.club/heroes/shredder",
+      lore: "https://en.wikipedia.org/wiki/Shredder_(Teenage_Mutant_Ninja_Turtles)"
+    },
+    {
+      id: "69",
+      name: "Krang",
+      back: "assets/backs/069.png",
+      minis: ["assets/minis/069a.png", "assets/minis/069b.png"],
+      desc: "",
+      ability: "Krang has 3 doomsday machines. Start with one machine active. <br/>After you roll the Dice of Ultimate Destruction, you can deactive an active machine to reroll the die. <br/>Add +1 to your move value for each active machine.",
+      guides: [{
+        name: "To The Table Top!", url: "https://www.youtube.com/watch?v=EcKAE5XoihY"
+      }],
+      set: ["Unmatched Adventures: Teenage Mutant Ninja Turtles - Shredder and Krang","https://boardgamegeek.com/boardgameexpansion/429397/unmatched-adventures-teenage-mutant-ninja-turtles"],
+      deck: "https://www.the-unmatched.club/heroes/krang",
+      lore: "https://en.wikipedia.org/wiki/Krang"
     },
   ]
 };
