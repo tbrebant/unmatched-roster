@@ -78,6 +78,8 @@ class App extends DoDom {
     addHrefLink(footer, 'docteeboh', 'https://docteeboh.net', 'link');
     footer.addDomText(' with the contribution of ');
     addHrefLink(footer, 'zypheron', 'https://github.com/zypherion', 'link');
+    footer.addDomText(' and ');
+    addHrefLink(footer,  'dead-wait', 'https://github.com/dead-wait', 'link');
     footer.addDomText('.');
 
 
