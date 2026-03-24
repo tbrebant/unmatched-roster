@@ -1110,5 +1110,57 @@ export default {
       deck: "https://www.the-unmatched.club/heroes/krang",
       lore: "https://en.wikipedia.org/wiki/Krang"
     },
+    {
+      id: "70",
+      name: "John Henry",
+      back: "assets/backs/070.png",
+      minis: ["assets/minis/070.png"],
+      desc: "",
+      ability: "You have 10 track tokens. At the start of your turn, summon a track token in a space in John Henry's zone. When you move John Henry, do not count spaces with track tokens.",
+      guides: [{
+      }],
+      set: ["Unmatched: Stars and Stripes","https://boardgamegeek.com/boardgame/451527/unmatched-stars-and-stripes"],
+      deck: "https://www.the-unmatched.club/heroes/john-henry",
+      lore: "https://en.wikipedia.org/wiki/John_Henry_(folklore)"
+    },
+    {
+      id: "71",
+      name: "Rosie The Riveter",
+      back: "assets/backs/071.png",
+      minis: ["assets/minis/071.png"],
+      desc: "",
+      ability: "You have 4 upgrade tokens. Start the game with all 4 inactive. At the start of your turn, activate an upgrade. At the end of your turn, if all 4 upgrades are active, deactivate all of them.",
+      guides: [{
+      }],
+      set: ["Unmatched: Stars and Stripes","https://boardgamegeek.com/boardgame/451527/unmatched-stars-and-stripes"],
+      deck: "https://www.the-unmatched.club/heroes/rosie-the-riveter",
+      lore: "https://en.wikipedia.org/wiki/Rosie_the_Riveter"
+    },
+    {
+      id: "72",
+      name: "George Washington",
+      back: "assets/backs/072.png",
+      minis: ["assets/minis/072.png"],
+      desc: "",
+      ability: "You start with 4 ruse tokens. When you attack, you may use a ruse token, playing it next to the card. Before your opponent chooses whether or not to defend, they may discard 1 random card to remove the ruse token.",
+      guides: [{
+      }],
+      set: ["Unmatched: Stars and Stripes","https://boardgamegeek.com/boardgame/451527/unmatched-stars-and-stripes"],
+      deck: "https://www.the-unmatched.club/heroes/george-washington",
+      lore: "https://en.wikipedia.org/wiki/George_Washington"
+    },
+    {
+      id: "73",
+      name: "Wyatt Earp",
+      back: "assets/backs/073.png",
+      minis: ["assets/minis/073.png"],
+      desc: "",
+      ability: "After you attack and win combat, choose one effect. You cannot choose the same effect twice in a turn. <br/>-draw 1 card <br/>-gain 1 free action to attack <br/>-move your fighter up to 1 space",
+      guides: [{
+      }],
+      set: ["Unmatched: Stars and Stripes","https://boardgamegeek.com/boardgame/451527/unmatched-stars-and-stripes"],
+      deck: "https://www.the-unmatched.club/heroes/wyatt-earp",
+      lore: "https://en.wikipedia.org/wiki/Wyatt_Earp"
+    },
   ]
 };
