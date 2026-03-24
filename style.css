@@ -242,8 +242,7 @@
 
 .filterWindowsContent {
 	background-color: white;
-	width: 842px;
-	height: 500px;
+	width: 850px;
 	border: 1px solid #000000;
 	box-shadow: 0px 0px 22px rgb(255 255 255);
 	display: inline-block;
@@ -253,6 +252,9 @@
 	box-sizing: border-box;
 	text-align: left;
 	user-select: none;
+	max-height: 100vh;
+	overflow-y: auto;
+	box-sizing: border-box;
 }
 
 .filterTitle {

@@ -353,7 +353,7 @@ class FighterPanel extends DoDom {
     }
 
     // Guides
-    if (fighterData.guides) {
+    if (fighterData.guides && fighterData.guides.length) {
       let guides = infoBlock.addDoDom('div', { class: 'fighterGuides' });
       guides.addDomText('Strategy guide(s): ');
       for (let i = 0; i < fighterData.guides.length; i++) {
